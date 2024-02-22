@@ -1,7 +1,7 @@
 ---
 name: Recipe Error
 about: Create a report to help us improve
-title: Crafteo
+title: ''
 labels: bug
 assignees: ''
 
