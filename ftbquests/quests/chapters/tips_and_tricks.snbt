@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "tips_and_tricks"
+	group: "0CD49F3D041448A1"
+	icon: "minecraft:recovery_compass"
+	id: "6C45674C5D92B69E"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "kubejs:textures/quests/tips_and_tricks.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: -5.5d
+		y: 0.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Artículo fácil para automatizar agua infinita. ¿Necesitas más agua? ¡Haz otro!"]
+			id: "418E5C7C3640F25A"
+			rewards: [
+				{
+					id: "35D902CA9B95DCE1"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "116340A7950565F6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Puede usarse como refrigerante del reactor."
+			tasks: [{
+				id: "244A75904F6D4495"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			description: ["Esta poción te permitirá ver el mineral respectivo a través de las paredes."]
+			id: "03082AEF97976132"
+			rewards: [
+				{
+					id: "38AA785619D0791E"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:gold_sight"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FFD2B69741FA7DB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "¡Es como un XRay!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "potionsmaster:iron_sight"
+					}
+				}
+				id: "23B66F9D43016792"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							Potion: "potionsmaster:iron_sight"
+						}
+					}
+				}
+				title: "IronSight"
+				type: "item"
+			}]
+			title: "OreSight Potions"
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "5B1388B53D88AEB6"
+			rewards: [{
+				id: "05E77A1189D4D05A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "¡Completa todos los consejos!"
+			tasks: [{
+				id: "1704A60F5730A027"
+				type: "checkmark"
+			}]
+			title: "Tipped Out"
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			description: ["¡En esta página encontrarás algunos elementos e información útiles que te ayudarán en tu viaje!"]
+			id: "08536F2C0D74AE13"
+			rewards: [{
+				id: "2021CA5DFA523063"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "¡otros artículos útiles!"
+			tasks: [{
+				id: "7C0D7FDF55543DD8"
+				title: "¡Consejos y trucos!"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "5BA2049CD0B06131"
+			rewards: [{
+				id: "3F3A76B7B4E5BB85"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "¡Un imán simple!"
+			tasks: [{
+				id: "6C13CB71DE1AF07D"
+				item: {
+					Count: 1b
+					id: "thermal:flux_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+	]
+	title: "Trucos \\& Extras"
+}

@@ -1,0 +1,2012 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 200
+	default_quest_shape: ""
+	filename: "mekanism_reactors"
+	group: "1D667F96A1BAEF18"
+	icon: "mekanism:supercharged_coil"
+	id: "18B2F6841FB3697C"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 3.0d
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 3.0d
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 3.0d
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hazmat_mask"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hazmat_gown"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hazmat_pants"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hazmat_boots"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 2.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/fluorite_gem"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/yellow_cake_uranium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 11.0d
+			hover: ["Fusion Reactor"]
+			image: "kubejs:textures/quests/fusion_cutout.png"
+			rotation: 0.0d
+			width: 10.627118644067796d
+			x: 17.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: ["Industrial Turbine"]
+			image: "kubejs:textures/quests/turbine_cutout.png"
+			rotation: 0.0d
+			width: 10.536144578313253d
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: ["Fission Reactor"]
+			image: "kubejs:textures/quests/fission_cutout.png"
+			rotation: 0.0d
+			width: 9.661016949152541d
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: ["Supercritical Phase Shifter"]
+			image: "kubejs:textures/quests/sps_cutout.png"
+			rotation: 0.0d
+			width: 12.687687687687689d
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			alpha: 150
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.5d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mob_grinding_utils:block/fan_front_on"
+			rotation: -45.0d
+			width: 1.0d
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mob_grinding_utils:block/fan_front_on"
+			rotation: -45.0d
+			width: 1.0d
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:block/screen_side"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "ars_nouveau:textures/particle/laser.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "securitycraft:block/ani_laser"
+			rotation: 0.0d
+			width: 0.021739130434782608d
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "securitycraft:block/ani_laser"
+			rotation: 0.0d
+			width: 0.021739130434782608d
+			x: 13.0d
+			y: -4.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Para comenzar nuestro viaje al mundo del Mekanism Reactors, comenzaremos haciendo un &aFission Reactor&r. Se trata de estructuras multibloque que generan enormes cantidades de calor al quemar &3Fissile Fuel&r. Este reactor no produce energía por sí solo, pero el calor generado se puede utilizar para calentar &bCoolant&r que se utilizará para generar energía en una &aIndustrial Turbine&r."
+				""
+				"El Fission Reactor puede ser muy peligroso, ya que una fusión puede causar una &cexplosión&r así como una &2Radiation&r que se extiende en un radio de 5 chunks, lo que dura varias semanas en el juego."
+				""
+				"Pero vamos a estar preparados para eso. Hagamos un traje Hazmat, por si acaso... ¿verdad?"
+			]
+			id: "3D921D95DE208D97"
+			min_width: 350
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42F3935F0C649B23"
+					table_id: 7197061527498167330L
+					type: "random"
+				}
+				{
+					id: "44D1CE4A42F378F9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			subtitle: "Orange = Radiation Protection"
+			tasks: [
+				{
+					id: "1E6362904A5127DB"
+					item: "mekanism:hazmat_mask"
+					type: "item"
+				}
+				{
+					id: "0BBD32033177A382"
+					item: "mekanism:hazmat_gown"
+					type: "item"
+				}
+				{
+					id: "4A4BA0B0C5060BE7"
+					item: "mekanism:hazmat_pants"
+					type: "item"
+				}
+				{
+					id: "319D6641FE009B11"
+					item: "mekanism:hazmat_boots"
+					type: "item"
+				}
+			]
+			title: "Suiting Up for Reactors"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"Es hora de reunir los materiales que necesitaremos para construir el reactor."
+				"Al igual que la mayoría de los multibloques de Mekanism, los reactores pueden tener un tamaño personalizado según sus necesidades. Deben ser cuboides, con un tamaño exterior mínimo de 3 bloques de ancho, 4 de alto y 3 de profundidad. El tamaño máximo es 18x18x18. &aVamos a construir un 5x5 para empezar&r."
+				""
+				"Los bordes de la carcasa exterior &bdeben&r estar hechos de &aFission Reactor Casings&r, mientras que las caras pueden ser carcasas o &bReactor Glass&r, puertos de reactor o adaptadores lógicos de reactor. Llegaremos a eso más tarde."
+				""
+				"¡Por ahora, construyamos un reactor de fisión básico de 5x5x5!"
+				""
+				"¿Necesitas más ayuda para construirlo? Si mantienes presionado &dw&r mientras pasas el cursor sobre la carcasa del reactor de fisión, verás la reflexión que puede ayudarte a construirlo."
+			]
+			hide: false
+			id: "4D3483D77F85861C"
+			min_width: 300
+			rewards: [
+				{
+					command: "/create ponder mekanismgenerators:fission_reactor_casing"
+					icon: "ftbquests:barrier"
+					id: "7BE62ED2526D62AD"
+					title: "Click Me To See How To Build!"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0821FD601717A724"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "6DD73BBA94FFCC5D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			subtitle: "Casings and Glass"
+			tasks: [
+				{
+					count: 53L
+					id: "0390DF6B82BC05AF"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					count: 41L
+					id: "26733133AE229007"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "Fission Reactor Building Basics"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Para que podamos introducir o sacar algo del Fission Reactor, necesitaremos &aFission Reactor Ports&r. These can be configured to input or output by using the &9Configurator&r. "
+				""
+				"Cada Fission Reactor &anecesita un mínimo de 4 puertos&r:"
+				""
+				"1 entrada de Coolant"
+				"1 salida de Coolant"
+				"1 entrada de Fissile Fuel"
+				"1 salida de Waste"
+				""
+				"Para esta compilación inicial, coloquemos un puerto a cada lado como la imagen que se muestra a continuación. ¡Asegúrese de configurarlos para que coincidan con la lista de entradas y salidas!"
+				""
+				"{image:kubejs:textures/quests/port_example.png width:200 height:200 align:1}"
+			]
+			id: "58321E0D789AD331"
+			min_width: 400
+			rewards: [
+				{
+					command: "/create ponder mekanismgenerators:fission_reactor_port"
+					icon: "mekanismgenerators:fission_reactor_port"
+					id: "1F7484F55621868A"
+					title: "Click Me To Learn More!"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "648BBEC50CA79FFF"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "6E5E0A18B6077BC4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "505F01E10447900D"
+				item: "mekanismgenerators:fission_reactor_port"
+				type: "item"
+			}]
+			title: "Interacting with the Fission Reactor"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"¿Tienes miedo de hacer estallar tu Fission Reactor y provocar una fuga masiva de Radiación? No te preocupes, todos lo somos. &o*inserte un flashback terrible aquí*&r"
+				""
+				"Entonces, ¿cómo podemos prevenir un desastre tan catastrófico? Creando un redstone &aCircuit Breaker&r usando &dFission Reactor Logic Adapters&r. Ahora bien, no está 100% garantizado que detengan una explosión, pero es absolutamente bueno tenerlos."
+				""
+				"ásicamente, estos Adaptadores nos permiten controlar el Reactor usando &cRedstone&r. Con solo uno, puedes usar una palanca para encender y apagar el reactor. Sin embargo, los usaremos para controlar daños."
+				""
+				"También puede configurarlos para que emitan una Redstone Signal según una determinada condición dentro del Reactor, como &cDamage Critical&r o &8Insufficient Fuel&r. Esto es útil para configurar un disyuntor para apagar el Reactor si eso alguna vez sucede."
+				""
+				"{image:kubejs:textures/quests/logic_adapter.png width:150 height:125 align:1}"
+			]
+			id: "296F49B260BB42DA"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "6684CB6B2427A64C"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			subtitle: "Because We've All Blown Up A Reactor Before"
+			tasks: [{
+				id: "7326CC70BAADC9B6"
+				item: "mekanismgenerators:fission_reactor_logic_adapter"
+				type: "item"
+			}]
+			title: "Reactor Fail Safe"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"El interior del reactor está formado por pilares que utilizan varios bloques de &aFission Fuel Assembly&r, con un único &aControl Rod Assembly&r colocado en la parte superior de cada pilar. Estos pueden tener entre 1 y 15 bloques de altura, dependiendo del tamaño del reactor."
+				""
+				"Para esta construcción, colocaremos 2 de los Fission Fuel Assemblies en el centro de nuestro multibloque y luego colocaremos el Control Rod Assembly justo encima de él."
+				""
+				"{image:kubejs:textures/quests/rod_example.png width:250 height:200 align:1}"
+			]
+			id: "33CB9C27DDFC0CA4"
+			min_width: 250
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75014BF7C74DB710"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "2A7BBD2C7F216792"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 2L
+					id: "43939B913D79692A"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "2FFB0F87F9DF5339"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			title: "Inside the Reactor: Fuel Control"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Usando algunos mecanismos vanilla y 2 &aFission Reactor Logic Adapters&r, podemos crear un disyuntor simple para disparar y apagar el reactor &o&en caso de que las cosas se pongan un poco locas&r."
+				""
+				"Para ello, necesitaremos una sola pieza de Redstone, un Pistón, un bloque de arena o grava y un Observador."
+				""
+				"En una de las caras, colocaremos un Logic Adapter down, luego saltaremos un bloque encima y luego colocaremos otro Adaptador. Establezca el Adaptador superior en &9\"Activación\"&r y el Adaptador inferior en &c\"Daño crítico\"&r."
+				""
+				"Luego, delante y debajo del Adaptador inferior, coloque cualquier bloque de construcción y pegue un trozo de Redstone que salga del Adaptador. Luego colocaremos un Pistón boca arriba frente a esa piedra roja, luego colocaremos nuestro trozo de arena o grava sobre ese Pistón."
+				""
+				"Para la parte final de nuestro interruptor, coloque el Observer con la cara apuntando hacia la configuración del pistón. &9¡Esto es importante&r!"
+				""
+				"Siempre que el Reactor tenga un daño crítico, activará el Adaptador inferior, lo que hará que la redstone reciba una señal, que luego activa el Pistón y empuja la Grava/Arena hacia arriba. Esto activará el Observador, que luego apagará el Reactor."
+				""
+				"{image:kubejs:textures/quests/example_circuit.png width:200 height:250 align:1}"
+			]
+			icon: "minecraft:observer"
+			id: "5F376AAD3938E1E3"
+			min_width: 500
+			optional: true
+			rewards: [
+				{
+					command: "/create ponder mekanismgenerators:fission_reactor_logic_adapter"
+					icon: "mekanismgenerators:fission_reactor_logic_adapter"
+					id: "4399FD87F4691BDA"
+					title: "Click Me To Learn More!"
+					type: "command"
+				}
+				{
+					id: "35F2F2A54FE9B6AC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Need a visual? Watch the Ponder!"
+			tasks: [
+				{
+					count: 2L
+					id: "0BF0CBBB80E42985"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "7F47DD9EC6229A9B"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "5C09CEA626BAE6B6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:gravel"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sand"
+								}
+							]
+						}
+					}
+					title: "Gravel or Sand"
+					type: "item"
+				}
+				{
+					id: "4D0FA883DB0DBF47"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "39E16645AD83476F"
+					item: "minecraft:observer"
+					type: "item"
+				}
+			]
+			title: "Example Circuit Breaker"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Al quemar combustible, el Fission Reactor genera una enorme cantidad de calor. Para evitar que el Reactor se convierta en TNT, debemos asegurarnos de que esté adecuadamente enfriado."
+				""
+				"La forma más sencilla de hacerlo es dándole al Reactor &9Agua&r desde un Sink. El Sink es una fuente de agua infinita, lo cual es &orealmente agradable para una situación como esta&r."
+				""
+				"Bombee el agua a uno de los puertos del Reactor que está configurado en &ainput&r para llenar el reactor con agua. Esto se calentará mientras el Reactor está en funcionamiento y se convertirá en &bSteam&r, que puede usar para generar energía en una &9Industrial Turbine&r."
+				""
+				"El &eSodium&r también se puede utilizar como coolant mucho más eficiente. Esto permite velocidades de combustión más altas y temperaturas centrales más bajas."
+			]
+			id: "343EA493272E48E6"
+			min_width: 300
+			progression_mode: "linear"
+			rewards: [{
+				id: "5404AAE696627A72"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "High Quality H2O"
+			tasks: [{
+				id: "6CFBC43CD36FD0E9"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "Cooling Our Reactor"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Una vez que hayas terminado de colocar todos los bloques necesarios para construir el Reactor, debería emitir partículas rojas para mostrar que está completo."
+				""
+				"Al hacer click derecho en cualquier parte del Reactor se abrirá la &aInterfaz&r. Este tendrá toda la información que necesita para ejecutar el Reactor correctamente, así como dos botones para encender y apagar el Reactor."
+				""
+				"A la izquierda, tienes 2 tanques: uno para &bCoolant&r and one for &3Fissile Fuel&r. A la derecha, tiene uno para &8Nuclear Waste&r, y otro para &bHeated Coolant&r, que probablemente será &bSteam&r."
+				""
+				"La barra &cTemperatura&r le mostrará qué tan caliente está el Reactor. Después de cierta temperatura, el reactor comenzará a sufrir &4Daños&r, lo que eventualmente hará que el reactor explote."
+				""
+				"Para ajustar la &cBurn Rate&r del Fissile Fuel y ver más estadísticas, haga clic en la pestaña (I) en el lado izquierdo. Aquí puede ajustar el límite de velocidad, que controla la cantidad de combustible que quema el Reactor por tick."
+				""
+				"{image:kubejs:textures/quests/reactor_interface_1.png width:200 height:150 align:1}"
+				"{image:kubejs:textures/quests/reactor_interface_2.png width:200 height:150 align:1}"
+			]
+			icon: "mekanism:geiger_counter"
+			id: "45CBBDF29E29234D"
+			min_width: 500
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71EE1F27CD552899"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "45361456AE42B7D4"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Those are definitely numbers"
+			tasks: [{
+				icon: "mekanism:geiger_counter"
+				id: "2CD02C016F1DF508"
+				title: "Observe a Completed Reactor"
+				type: "custom"
+			}]
+			title: "The Fission Reactor Interface"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Cada Reactor utiliza Uranium en algún lugar como combustible, ¿verdad?"
+				""
+				"Para empezar, juntemos algunos &aUranium Ingots&r. Tendremos que procesarlos en una &9Enrichment Chamber&r para convertirlos en &eYellow Cake Uranium&r."
+			]
+			icon: "mekanism:yellow_cake_uranium"
+			id: "155402E27E306809"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "716F0373F7B5E584"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "7219DC913A21C3D3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Of Course It Uses Uranium"
+			tasks: [
+				{
+					id: "01638EB6E5CEDCB9"
+					item: "alltheores:uranium_ingot"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "413BDE6DD4087E41"
+					item: "mekanism:yellow_cake_uranium"
+					type: "item"
+				}
+			]
+			title: "&aUranium"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			description: ["Una vez que tengamos en nuestras manos &eYellow Cake Uranium&r, podemos enviarlo a través de un &aChemical Oxidizer&r para crear el gas, &2Uranium Oxide&r. "]
+			id: "1E5B74752649A480"
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "252E8C224073ABA3"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "58D9C1BF4B6C62DF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "154362ABA3529488"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+				{
+					icon: "mekanism:basic_chemical_tank"
+					id: "55A823B5E9F8504D"
+					title: "Observe Uranium Oxide in a Machine"
+					type: "custom"
+				}
+			]
+			title: "&eUranium Oxide"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["23983F4DC524B14B"]
+			description: [
+				"En resumen, hemos configurado una advanced Ore Processing que utiliza varios gases, maquinaria y más."
+				""
+				"En este capítulo, usaremos más de ellos para crear potentes &aReactores&r multibloque, así como formas avanzadas de crear y almacenar energía. Esto también conducirá a la fabricación de &dAntimatter Pellets&r, que se utilizan para fabricar la &6Mega Estrella&r, así como algunas de las herramientas y armas más potentes del paquete."
+			]
+			icon: "mekanism:antiprotonic_nucleosynthesizer"
+			id: "50BC578B64DE45AB"
+			min_width: 300
+			rewards: [{
+				id: "795834983FA7F139"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&cRequire Completar la parte 1 del mekanism&r"
+			tasks: [{
+				id: "413CAC1C9172CECC"
+				title: "&aMekanism&r: &dAdvanced&r"
+				type: "checkmark"
+			}]
+			title: "&fMekanism &5Avanzado"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"El Fission Reactor necesita &3Fissile Fuel&r para funcionar. Si buscas Fissile Fuel ahora mismo en JEI, apuesto a que te abrumarás con todo lo que necesitas para fabricarlo. Está bien, tienes esto. Vayamos paso a paso."
+				""
+				"Todo se reduce a crear &eUranium Hexafluoride&r. Para hacer esto, centrémonos en producir estos dos gases: &bHydrofluoric Acid&r, y &eUranium Oxide&r."
+			]
+			icon: "mekanism:reprocessed_fissile_fragment"
+			id: "763FD282DE91BDD5"
+			rewards: [{
+				id: "6BDF2C0D77C905EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "614B572F2D5F370C"
+				title: "&3Fissile Fuel Production&r"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Ya debería haber producido &2Sulfuric Acid&r para su instalación de Tier 4 Ore Processing, pero aquí le recordamos cómo obtenerlo."
+				""
+				"Comience por obtener &eSulfur Dust&r ya sea triturando Sulfur de Thermal, o mezclando &bHydrogen Chloride&r with &3Gunpowder&r in a Chemical Dissolution Chamber."
+				""
+				"Tome el Sulfur Dust y páselo por un &9Chemical Oxidizer&r para obtener &eSulfur Dioxide&r. Combine eso con &bOxygen&r en un Chemical Infuser para obtener &eSulfur Trioxide&r."
+				""
+				"A continuación, combinaremos &bWater Vapor&r con Sulfur Trioxide para producir &2Sulfuric Acid&r."
+			]
+			icon: "thermal:sulfur_dust"
+			id: "61B6B803E9D50460"
+			progression_mode: "linear"
+			rewards: [{
+				id: "3F25E45A027BFB14"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "A Quick Recap"
+			tasks: [
+				{
+					id: "0DE8CD8ED314BBA3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/sulfur"
+						}
+					}
+					title: "Sulfur Dust"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "5B8E318F125A8107"
+					title: "Observe Sulfuric Acid in a Machine"
+					type: "custom"
+				}
+			]
+			title: "&2Sulfuric Acid"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Tomemos nuestro &2Sulfuric Acid&r y combinémoslo con &bFluorite&r en una &9Chemical Dissolution Chamber&r para producir &bHydrofluoric Acid&r."
+				""
+				"¡Casi estámos allí!"
+			]
+			id: "46857F5B280EF2AF"
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41C181B6ECECEB9A"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "56548C4D984839FC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "510AAB0E535FFEEF"
+					item: "mekanism:fluorite_gem"
+					type: "item"
+				}
+				{
+					id: "54E7265E38C97498"
+					item: "mekanism:chemical_dissolution_chamber"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "29AB44A3DB666143"
+					title: "Observe Hydrofluoric Acid in a Machine"
+					type: "custom"
+				}
+			]
+			title: "&bHydrofluoric Acid"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			description: ["Usando otro &9Chemical Infuser&r, queremos combinar nuestro &bHydrofluoric Acid&r con &eUranium Oxide&r para producir &2Uranium Hexafluoride&r."]
+			id: "4DC2E333AEFCBFF4"
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BC88E0F4A3B8975"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "308A97C59F4BDF9C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7683B58AAD10615D"
+					item: "mekanism:chemical_infuser"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "5C4575700A3E3DA7"
+					title: "Observe Uranium Hexafluoride in a Machine"
+					type: "custom"
+				}
+			]
+			title: "&2Uranium Hexafluoride"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Una vez que tengamos una &9Isotopic Centrifuge&r, podremos ejecutar nuestro &2Uranium Hexafluoride&r y crear &3Fissile Fuel&r!"
+				""
+				"Mira, eso no fue tan malo, ¿verdad?"
+			]
+			icon: "mekanism:isotopic_centrifuge"
+			id: "192D8D8DF9610CA0"
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "277307F56053B7D0"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "2F275AE938887E05"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "504EE31CE69D2903"
+					item: "mekanism:isotopic_centrifuge"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "5A579E6591B443BD"
+					title: "Observe Fissile Fuel in a Machine"
+					type: "custom"
+				}
+			]
+			title: "&3Fissile Fuel&r"
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Repasemos la lista de verificación \"una vez más\" para asegurarnos de que tenemos todo listo antes de iniciarlo:"
+				""
+				"1. Hazmat Suit Puesto (la seguridad es lo primero)"
+				"2. Agua/coolant bombeando a un puerto de entrada."
+				"3. Fissile Fuel bombeando a un Puerto de entrada."
+				"4. Un puerto configurado para enviar el Heated Coolant, ya sea a un contenedor de basura o a una Industrial Turbine."
+				"5. Un puerto configurado para generar Nuclear Waste que conducen a Radioactive Waste Barrels o máquinas para procesarlos, ¡o ambos!"
+				""
+				"Si está listo para comenzar, presione el botón &eActivar&r. También puede ajustar la &3Burn Rate&r para producir más Nuclear Waste, pero comience lentamente."
+			]
+			icon: "megacells:radioactive_cell_component"
+			id: "4EE0E154E2E67A2E"
+			min_width: 300
+			rewards: [{
+				id: "354EC47450DFEA28"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "21170CD97BA54033"
+				title: "Ready To Go!"
+				type: "checkmark"
+			}]
+			title: "Booting Up The Reactor"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Una vez que comencemos a quemar Fissile Fuel en el reactor, obtendremos &bCoolant&r y &8Nuclear Waste&r."
+				""
+				"Aquí es donde entra en juego la Radiación. Mientras permanezca de forma segura en algún contenedor o máquina, no habrá ningún derrame... ¿verdad?"
+				""
+				"La mejor manera de almacenar cualquier sustancia Radiactiva es utilizando un &2Radioactive Waste Barrel&r. Estos almacenarán los desechos de manera segura, mientras descomponen lentamente el gas sin causar un derrame Radiación. No querrás que tus Nuclear Waste se queden en tu reactor, ya que esto hace que produzcan más calor, así que configura un puerto para &aoutput Waste&r y envíalos a un barril."
+				""
+				"&9Nota importante&r: Romper &ncualquier&r máquina, barril, tubería o &ocualquier cosa&r que tenga un gas Radiactivo en su interior &ccausará una fuga de Radiación&r. so incluye los productos de los Nuclear Waste, como el Polonium o el Plutonium."
+			]
+			id: "129933D2284A8DC0"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66B1A4A870068C89"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "4C2EEFF263EDCC45"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "481CE146644E64F7"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			title: "Dealing with &8Nuclear Waste&r"
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Los &8Nuclear Waste&r se pueden enviar a una Isotopic Centrifuge para crear &9Plutonium&r."
+				""
+				"Enviar el Plutonium a una Pressurized Reaction Chamber con un poco de agua y &7Fluorite Dust&r le dará &9Plutonium Pellets&r. ¡Estos se utilizan para hacer materiales finales del juego!"
+				""
+				"Nota: Esto también creará un subproducto de &7Spent Nuclear Waste&r, que deben bombearse a un Waste Barrel para su almacenamiento."
+			]
+			id: "4B432AA7DEC8D6C2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C7B7F464C0293E0"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "3F610AEB6C6958B2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "57EF2221E40CCD20"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Bombear Nuclear Waste a un &9Solar Neutron Activator&r le dará &dPolonium&r. "
+				""
+				"Pasa el Polonium a través de una Pressurized Reaction Chamber con un poco de Fluorite Dust y obtendrás &9Polonium Pellets&r. Necesitará una buena cantidad de estos para el futuro."
+				""
+				"Nota: Esto también creará un subproducto de &7Spent Nuclear Waste&r, que deben bombearse a un Waste Barrel para su almacenamiento."
+			]
+			id: "3431E4944F613C87"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "661A694A06BBA7A1"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "15B80F85ABBFFB6D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "32C26026F0CBAD65"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"El &dSupercritical Phase Shifter&r (SPS para abreviar) es otra estructura multibloque utilizada para infundir polonio con grandes cantidades de energía para crear &dAntimatter&r gas, que puede cristalizarse en gránulos."
+				""
+				"Para construir el SPS, necesitarás hacer un total de 72 &9SPS Casings&r (60 para la construcción, 12 para hacer los puertos), 3 &9SPS Ports&r, 122 Reactor Glass y otro elemento del que hablaremos a continuación. búsqueda. ¡Consigamos los materiales primero!"
+			]
+			id: "32989245AD3132F3"
+			progression_mode: "linear"
+			rewards: [
+				{
+					command: "/create ponder mekanism:sps_casing"
+					icon: "ftbquests:barrier"
+					id: "13F04B80FD3F9F9D"
+					title: "Click Me to Learn How To Build!"
+					type: "command"
+				}
+				{
+					id: "51CB3A8567217A67"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DE80E0BB1B54F79"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "6B5A2D0CAE790F08"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 60L
+					id: "698E1629D6BC73C3"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					count: 122L
+					id: "2F063BEBD4963053"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "721B4B058DB82640"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+			]
+			title: "&dSupercritical Phase Shifter"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Probablemente hayas escuchado a la gente hablar de que el &cFusion Reactor&r es la mejor fuente de energía del paquete. Ellos están en lo correcto."
+				""
+				"Una vez activado, el reactor puede generar hasta 200 MRF/t con la configuración adecuada. También se puede enfriar con agua para producir vapor, que puede entrar en una &9Industrial Turbine&r para generar aún más energía."
+				""
+				"Para construir el Fusion Reactor, debemos seguir un patrón simple. Cada cara se verá así:"
+				""
+				"{image:kubejs:textures/quests/fusion_pattern.png width:175 height:175 align:1}"
+				""
+				"Para la parte superior, queremos reemplazar el bloque central con el Fusion Reactor Controller."
+				""
+				"Para los puertos, puedes reemplazar cualquiera de los Reactor Glass en los lados. Para esta configuración, necesitaremos dos puertos para ingresar &cDeuterium&r y &eTritium&r, luego un puerto para generar energía de salida. "
+				""
+				"{image:kubejs:textures/quests/completed_fusion_reactor.png width:175 height:150 align:1}"
+			]
+			id: "551B702D3460F1E4"
+			min_width: 500
+			progression_mode: "linear"
+			rewards: [
+				{
+					command: "/msg @p Hi, @p!/create ponder mekanismgenerators:fusion_reactor_frame"
+					icon: "ftbquests:barrier"
+					id: "70D1DB89382146DD"
+					title: "Click Me To See How To Build!"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10550297A75065B0"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "6AAD3A0A85645AB8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "The Best Power Source In The Pack"
+			tasks: [
+				{
+					id: "1B552FA86B26B7D4"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "2B80B89EA02FF60D"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5D5F48BC28B5C8D3"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "61B3598600C339EC"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "The &cFusion Reactor&r"
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"La &9Supercharged Coil&r se coloca en un puerto SPS en el centro de dos caras, como en la imagen a continuación. Cuando se les dé poder, estos sobrecargarán el Polonium y lo convertirán en Antimatter. Sólo se requiere 1, pero puedes usar 2 si lo deseas."
+				""
+				"Para producir 1 MB de Antimatter, necesitas 400MRF. Si aún no has empezado a fabricar un &cFusion Reactor&r, ¡ahora es un buen momento para hacerlo!"
+				""
+				"{image:kubejs:textures/quests/sps_coils.png width:200 height:125 align:1}"
+			]
+			id: "44E6B09A984FFD1B"
+			min_width: 300
+			rewards: [
+				{
+					id: "4FAF4975E90F5EB7"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04FFF6F39138A0D7"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "71A3EB2FB33BE564"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "78D8B57FF718970B"
+				item: "mekanism:supercharged_coil"
+				type: "item"
+			}]
+			title: "The Supercharged Coils"
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Con todos los bloques reunidos, es hora de construir esto. A continuación se muestra una guía de texto, o puedes ver Ponder!"
+				""
+				"El SPS será de 7x7 cuando se construya, pero no es un cubo. Sigue un patrón simple, que puedes seguir en las imágenes a continuación como guía de construcción. El patrón se ve así: "
+				""
+				"{image:kubejs:textures/quests/basic_sps_shape.png width:250 height:225 align:1}"
+				""
+				"Cada lado, incluyendo la parte inferior y superior, seguirá este patrón. Las Supercharged Coils deben colocarse una frente a la otra en el centro de sus respectivos lados, y los dos puertos restantes se usarán para bombear Polonium, y expulsar Antimatter Gas."
+				""
+				"Aquí está la estructura completa a continuación:"
+				""
+				"{image:atm:textures/questpics/mek/sps_complete.png width:300 height:250 align:1}"
+			]
+			id: "1EE8386EF39DE62C"
+			min_width: 350
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "176C9346783D5C5C"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "2953125C002FBFDF"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "square"
+			tasks: [{
+				icon: "mekanism:sps_casing"
+				id: "0A2680C5E638719C"
+				title: "Observe a completed SPS"
+				type: "custom"
+			}]
+			title: "Build the SPS!"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Después de eliminar billones de energía en el SPS, finalmente podemos crear &dAntimatter Pellets&r."
+				""
+				"Ejecute el Antimatter Gas que obtiene del SPS en un Chemical Crystallizer  y obtendrá 1 Antimatter Pellet por cada 1000 mb que produzca."
+			]
+			id: "71D209B78E503B52"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36775A7B5E625C3F"
+					table_id: 5196609362437981520L
+					type: "loot"
+				}
+				{
+					id: "4E829733872F92E9"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "065CD02BA16FCC8A"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Para ver una imagen, consulte Ponder manteniendo presionado &aW&r mientras se desplaza sobre Laser Focus Matrix."
+				""
+				"El objetivo es apuntar cada Laser Hacia un Laser Amplifier. Usar uno es bastante lento, así que vamos a hacer algunos."
+				""
+				"En la imagen a continuación, puede ver un ejemplo de cómo se configura esto. Pegar los Lasers directamente a una fuente de energía como un Energy Cube funciona, o puedes colocarlos en pipes o cables. Desea darle un bloque de espacio vacío entre los lasers y el Laser Amplifier."
+				""
+				"El Laser Amplifier tiene un punto rojo en una de las caras. Esto es lo que usted quiere señalar hacia el Laser Focus Matrix."
+				""
+				"Asegúrese de apagar el Laser Amplifier (o activar el control Redstone) y espere a que almacene &cal menos 400MRF&r, entonces estará listo."
+				""
+				"{image:atm:textures/questpics/mek/laser_example.png width:200 height:150 align:1} "
+			]
+			id: "06B97F83C7357043"
+			min_width: 400
+			rewards: [
+				{
+					command: "/create ponder mekanismgenerators:laser_focus_matrix"
+					icon: "mekanism:laser"
+					id: "064AA17DBF7709BA"
+					title: "Click Me To See It In Action!"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37EE405561B6AE31"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "10E33423FBC12ACE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "5ACA529C8E1751A8"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3BD7AF3E617133E8"
+					item: "mekanism:laser"
+					type: "item"
+				}
+			]
+			title: "Jumpstarting Method: &dLaser Focus Array&r"
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			description: ["A estas alturas ya estás fabricando &aLithium&r. Bombee eso en un Solar Neutron Activator para crear &eTritium&r."]
+			id: "11C1EA8374355B5B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11EAF82F0378292F"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "254761BBDC1559BB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "7A9FF62727EC0905"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			title: "Fueling the Fusion Reactor: &eTritium&r"
+			x: 12.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Para alimentar nuestro Fusion Reactor, necesitaremos crear dos gases diferentes, siendo éste &cDeuterio&r."
+				""
+				"Para hacer esto, necesitaremos fabricar algunas Electric Pumps y darles un Filter Upgrade. Colócalos sobre un bloque de fuente de agua, dales algo de energía y bombearán &5Heavy Water&r."
+				""
+				"Bombee el agua pesada a un Electrolytic Separator para obtener &cDeuterium&r."
+			]
+			icon: "mekanism:electric_pump"
+			id: "49EA95C3D6F5AC4A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "696F338D9DD2536E"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "66838EE0E72E078C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0436874E5F039E76"
+					item: "mekanism:electric_pump"
+					type: "item"
+				}
+				{
+					id: "1ACC4BEBFD47171A"
+					item: "mekanism:upgrade_filter"
+					type: "item"
+				}
+			]
+			title: "Fueling the Reactor: &cDeuterium&r"
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"Para poner en marcha el Fusion Reactor, necesitaremos una inyección rápida de combustible D-T. sto se elabora combinando &cDeuterium&r y &eTritium&r juntos en un Chemical Infuser."
+				""
+				"Comience haciendo un &4Hohlraum&r y colóquelo en el Infuser (donde está el símbolo más) para llenarlo con combustible D-T. ¡Ahora estamos listos para poner en marcha el Reactor!"
+			]
+			id: "3B19E2CDDE540250"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "671CEA70ADC3C2C2"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "4C2F1F2DAAB7A66B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3E4A0120A860D545"
+				item: "mekanismgenerators:hohlraum"
+				type: "item"
+			}]
+			title: "The Fuel Injector"
+			x: 14.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Para crear una reacción para que el Reactor se encienda, necesitaremos inyectarle una tonelada de energía. &oY me refiero a un montón de potencia&r."
+				""
+				"Esto requiere que configure varios &9Lásers&r que deben estar encendidos y luego dispare 400MFE directamente en el Laser Focus Matrix."
+				""
+				"La Laser Focus Matrix se coloca en el centro de una cara del Fusion Reactor. A continuación construiremos El siguiente Lasers."
+			]
+			icon: "mekanism:laser"
+			id: "30FF25A78E4039E6"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BD95F38358699FC"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "43E2B0CAA4FB74B4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5B30EE5121495BBE"
+				item: "mekanismgenerators:laser_focus_matrix"
+				type: "item"
+			}]
+			title: "Frickin' Laser Beams"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"El Fusion Reactors requieren un combustible muy especial: &dD-T Fuel&r para ser exactos."
+				""
+				"Hay dos formas de alimentar el Reactor: bombeando combustible D-T directamente al Reactor a 1000 mb/t, o bombeando cada uno de los dos combustibles por separado a velocidades controladas."
+				""
+				"Para empezar, introducámoslos por separado. Probablemente también necesitemos saber cómo hacerlos."
+			]
+			icon: "mekanismgenerators:fusion_fuel_bucket"
+			id: "557AA9EE0F463920"
+			rewards: [{
+				id: "1EFE5627F84B8D64"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1ACF2401383DE0CD"
+				title: "Fueling the Reactor"
+				type: "checkmark"
+			}]
+			title: "Fueling the &dFusion Reactor&r"
+			x: 10.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"¿Hohlraum lleno de combustible D-T? &o¡Comprueba!&r"
+				""
+				"Deuterium y Tritium listos para ser bombeados al Reactor? &o¡Comprueba!&r"
+				""
+				"¿Un Laser Amplifier con al menos 400MRF listo para disparar el Laser Focus Matrix? &o¡Comprueba!&r"
+				""
+				"Una vez que esté listo, coloque el &5Hohlraum&r en el &aFusion Reactor Controller&r, bombee el Combustible y luego active su Laser Amplifier."
+				""
+				"Si lo haces correctamente, verás cómo se activa el Reactor."
+				""
+				""
+				"{image:kubejs:textures/quests/fusion_activated.png width:225 height:150 align:1}"
+			]
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			id: "43995BB148A19ADA"
+			min_width: 300
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C6C9F6ED7A79A68"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "7FB6C761094EB1E3"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [
+				{
+					id: "06D59196E234230F"
+					item: {
+						Count: 1b
+						id: "mekanismgenerators:hohlraum"
+						tag: {
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										amount: 10L
+										gasName: "mekanismgenerators:fusion_fuel"
+									}
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "mekanismgenerators:fusion_reactor_frame"
+					id: "56E6F7665C01CFF3"
+					title: "Observe a completed Fusion Reactor"
+					type: "custom"
+				}
+			]
+			title: "&dI Think We're Ready&r"
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"El &dFusion Reactor&r puede producir hasta 200MRF/t por sí solo, pero primero debemos entender algunos aspectos mecánicos."
+				""
+				"La forma más sencilla de producir energía es bombeando Deuterium y Tritium por separado, y luego controlando la cantidad de combustible que se quema usando la &aInjection Rate&r en la &cFuel Tab&r."
+				""
+				"Tiene que ser un número par con un máximo de 98, ya que combina el combustible D-T dentro del propio Reactor. El consumo de cada combustible es igual a la mitad de la tasa de Injection Rate por tick, es decir, 49 mb/t de cada uno para el máximo."
+				""
+				"Sin embargo, puede inyectar directamente &dD-T Fuel&r, pero no podrá controlar la Injection Rate. Esto creará enormes cantidades de energía por tic, pero a una tasa de consumo de combustible mucho mayor, 500 mb/t de cada combustible."
+				""
+				"{image:kubejs:textures/quests/fusion_fuelui.png width:175 height:150 align:1}"
+			]
+			id: "6075140A94331621"
+			min_width: 300
+			rewards: [
+				{
+					id: "1EC5C72C445D0C34"
+					item: "mekanism:ultimate_induction_cell"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BDBD49AA5B04EC8"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "700B5B707CD41C7E"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "313661BA2D30185A"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 50000000L
+			}]
+			title: "&dThe End Game Power Source&r"
+			x: 20.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"El &9Industrial Turbine&r es una enorme estructura multibloque que se utiliza para convertir el &cHeated Coolant&r en energía. El tamaño mínimo es 5x5x5, siendo el tamaño máximo 17x17x18."
+				""
+				"Para construir la Turbina, necesitaremos varios bloques, así que comencemos con lo básico."
+				""
+				"Al igual que la mayoría de los multibloques de Mekanism, el marco debe estar hecho de &eTurbine Casings&r. Sin embargo, en lugar de Reactor Glass, puede utilizar &bStructural Glass&r o Casings para cada cara."
+				""
+				"Vamos a construir esta turbina y la misión requiere los materiales exactos necesarios."
+				""
+				"{image:kubejs:textures/quests/turbine_completed.png width:200 height:225 align:1}"
+			]
+			id: "750014E4A990D9C7"
+			min_width: 300
+			rewards: [
+				{
+					command: "/create ponder mekanismgenerators:turbine_casing"
+					icon: "ftbquests:barrier"
+					id: "7C1FC1724471C2CB"
+					title: "Click Me To Learn How To Build!"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D6C9459131A3499"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "54C2E600E5332B08"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			subtitle: "Building the Frame"
+			tasks: [
+				{
+					count: 52L
+					id: "0FD87460285FD0B3"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "1E530704329E7809"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "The &9Industrial Turbine&r"
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"La &9Turbine Valves&r se utilizan para bombear &bSteam&r, así como para bombear la energía que crea la Turbina."
+				""
+				"Las &8Turbine Vents&r se utilizan para bombear el exceso de agua cuando se utilizan &aSaturating Condensers&r. De lo contrario, ayudan a aumentar el flujo general de steam dentro de la Turbina. El número total de Vents también limita el total Steam Flow Rate. También se pueden usar Vents en la cara superior de la Turbina, pero para esta construcción, solo los usaremos en las caras exteriores."
+				""
+				"Los &aSaturating Condensers&r  se utilizan para convertir el &bSteam&r nuevamente en agua. Estos se colocan sobre o encima de la capa que contiene las Electromagnetic Coils."
+			]
+			id: "21173FCCF95897EE"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "55E6902351F89706"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "0FFB0358376027F4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "4D9F3B1868F90E98"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "6359A56AFD62BEB3"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "648055B7D171213E"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+			]
+			title: "The &aPorts&r"
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"El &9Turbine Rotor&r está colocado en el medio de la turbina. Para cada rotor de turbina, necesitará 2 &aTurbine Blades&r. Para esta turbina, usaremos 3 Rotors."
+				""
+				"Mientras mira el rotor, haga clic derecho con &aTurbine Blades&r para colocarlas directamente en el rotor. Cuanto más alto sea el rotor, más largas serán las Blades. Para esta construcción, utilizamos 6 Blades en total. Si planea construir una Turbina más grande, necesitará aumentar el ancho de la Turbina dependiendo de cuántas Blades planee usar."
+				""
+				"El &9Rotational Complex&r debe colocarse en la parte superior del Turbine Rotor. Luego se rodea con &ePressure Dispersers&r."
+				""
+				"Los Dispersores deben llenar toda la capa donde se asienta el Rotational Complex."
+			]
+			id: "7D452EA6834A77FA"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0867C52BDE0A935D"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "338975AF5550C651"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 3L
+					id: "2545AE1A9F1382C9"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "295F25A110BB2509"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "16BA1D8DDA17573A"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0941565CAF74782B"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+			]
+			title: "The &aRotor&r"
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"La &9Electromagnetic Coil&r se coloca directamente encima del &aRotational Complex&r para convertir la energía cinética en potencia."
+				""
+				"Puedes usar varios, siendo 5 el máximo. Estos deben tocar otra Coil, o el Rotational Complex."
+			]
+			id: "5C34166E275E6B8D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6089371FAB35F5C8"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "5F5D527291F5F7FD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "31AE13D13E8F6154"
+				item: "mekanismgenerators:electromagnetic_coil"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Si has construido la Turbina correctamente, verás partículas rojas alrededor de la estructura. Al hacer click derecho en Turbine se abrirá la interfaz."
+				""
+				"Esto le brindará toda la información que necesita saber, incluido en total Steam Flow Rate, así como el total Steam dentro de la Turbina."
+				""
+				"A la derecha tendrás una barra que te muestra la potencia que se almacena dentro de la turbina. Si se llena, la Turbina se apagará, a menos que la configure en Vent Overflow."
+				""
+				"¡Pongámoslo en marcha!"
+				""
+				"Una vez que tenga un reactor de fisión en pleno funcionamiento, bombee el &bSteam&r directamente a una Turbine Valve en su Turbina. Dado que utilizamos Saturating Condensers en esta construcción, puede bombear agua desde una Turbine Vent hacia su Reactor si lo desea."
+			]
+			id: "5074CB406590F54D"
+			min_width: 300
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1164AC4F8893EBBA"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "75BC80C2F8C4B52A"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: "mekanismgenerators:turbine_casing"
+				id: "295B7C062950DF93"
+				title: "Observe a Completed Turbine"
+				type: "custom"
+			}]
+			title: "Creating Power with the Turbine!"
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Si queremos crear cantidades masivas de energía, necesitaremos una forma de almacenarla toda, y esos Energy Cubes simplemente no serán suficientes."
+				""
+				"Vamos a crear un multibloque personalizable que se utilizará para almacenar grandes cantidades de energía, pero primero, ¡necesitamos hacer algo de Lithium Dust!"
+				""
+				"Deberías preparar algo de Brine de una misión anterior usando las &aThermal Evaporation Plants&r. Ejecute la &eBrine&r a través de otra &aThermal Evaporation Plant&r para obtener Lithium, luego a través de un &9Chemical Crystallizer&r para obtener &aLithium Dust&r."
+			]
+			icon: "mekanism:upgrade_energy"
+			id: "79A8E14EE349451F"
+			min_width: 250
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "29EDA04B27D49EFD"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "5F6878AF669AAB0F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "7106813E41EFCE9E"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			title: "Advanced Power Storage"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Casi todos los multibloques de Mekanism están construidos de la misma manera."
+				""
+				"Necesitarás hacer una estructura de prisma rectangular. Los bordes deben estar hechos de &8Induction Casings&r.  Las caras pueden estar hechas de Casings, &aStructural Glass&r, o &cInduction Ports&r. Lo mejor es tener 2 puertos: uno para entrada y otro para salida. Estos se pueden cambiar usando el &eConfigurator&r."
+				""
+				"Para esta construcción, haremos un 5x5x5. Esta misión requiere la cantidad exacta de materiales necesarios para construirla. ¿Necesitas ayuda? &n¡Mira el Ponder!&r"
+				""
+				"{image:kubejs:textures/quests/induction_matrix.png width:200 height:200 align:1}"
+			]
+			hide: false
+			id: "2977C9456255A576"
+			min_width: 300
+			rewards: [
+				{
+					command: "/create ponder mekanism:induction_casing"
+					icon: "ftbquests:barrier"
+					id: "5482E7F759E1DE6E"
+					title: "Click Me To See How To Build!"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73D7B522D7737881"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "44BD521ACEBA49A3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			subtitle: "The Energy Cube's Papa"
+			tasks: [
+				{
+					count: 44L
+					id: "1C13BC4316EA5FE4"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5B81940A8E87BF9C"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					count: 55L
+					id: "64E0E0D92E3368AC"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "Building the &9Induction Matrix&r"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"La Induction Matrix le permite personalizar cuánta energía puede almacenar y transferir agregando Células y Proveedores dentro de la estructura multibloque."
+				""
+				"Las Induction Cells  aumentan la cantidad total de energía que se puede almacenar."
+				""
+				"El Induction Providers aumentan la velocidad total de transferencia tanto dentro como fuera de Matrix."
+				""
+				"Puedes personalizar cuántos quieres de cada uno dentro del multibloque, pero necesitarás al menos uno de cada uno. Estos también tienen niveles más altos para aumentar su capacidad general de almacenamiento y transferencia."
+				""
+				"{image:kubejs:textures/quests/induction_inside.png width:300 height:200 align:1}"
+			]
+			hide: false
+			id: "3DFA5598F826D2A1"
+			min_width: 350
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0982F2E01E957E5E"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "101BEB789458B3B5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "30E476CAE876EC8A"
+					item: "mekanism:basic_induction_cell"
+					title: "Induction Cells"
+					type: "item"
+				}
+				{
+					id: "5D21DA1521D59336"
+					item: "mekanism:basic_induction_provider"
+					title: "Induction Providers"
+					type: "item"
+				}
+			]
+			title: "&aCustomizing Our&r &9Power Limits&r"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Una vez que haya terminado de construir su primera &9Energized Induction Matrix&r, verá partículas rojas alrededor de la estructura para mostrar que está completa."
+				""
+				"¡No tenga miedo de actualizar con Cells y Providers! Need de niveles superiores! ¿Necesitas más espacio para ellos? El tamaño máximo que puede tener la Induction Matrix es 18x18x18."
+			]
+			icon: "mekanism:ultimate_induction_cell"
+			id: "09C245AE3370929F"
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1451CE4CD7CF0131"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+				{
+					id: "3B457E49596622AD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				icon: "mekanism:induction_casing"
+				id: "3476012871896D43"
+				title: "Observe a Completed Induction Matrix"
+				type: "custom"
+			}]
+			title: "&aCompleting the&r &9Matrix&r"
+			x: 5.0d
+			y: -1.0d
+		}
+	]
+	title: "Mekanism: &dAvanzado&r"
+}

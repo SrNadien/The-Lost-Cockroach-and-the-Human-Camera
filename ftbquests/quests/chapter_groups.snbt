@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "4F42028556C24AD3", title: "Inicios" }
+		{ id: "7F99CEFA76FAC940", title: "Almacenamiento" }
+		{ id: "0CD49F3D041448A1", title: "Importantes" }
+		{ id: "1D667F96A1BAEF18", title: "Maquinas" }
+		{ id: "1B4C1117A3C45B43", title: "Magia" }
+		{ id: "0D5E62AC983E0EDB", title: "Caza" }
+		{ id: "26FCFC024A8443C9", title: "End Game" }
+	]
+}

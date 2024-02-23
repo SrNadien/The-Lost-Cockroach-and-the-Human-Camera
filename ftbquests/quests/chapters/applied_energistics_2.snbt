@@ -1,0 +1,2249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "applied_energistics_2"
+	group: "7F99CEFA76FAC940"
+	icon: "ae2:controller"
+	id: "07210DDF872160BA"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "ae2:textures/item/wireless_crafting_terminal.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -5.0d
+		y: -4.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&lBienvenido A &bApplied Energistics 2&f!"
+				""
+				"Applied Energistics 2 (o &oAE2&r ) es un mod de almacenamiento digital increíblemente versátil, que permite un almacenamiento extremadamente eficiente y todo tipo de capacidades de automatización para aumentar en gran medida tu experiencia de Minecraft modificado desde el principio. "
+				""
+				""
+				"Para obtener más información sobre AE2 más allá de este capítulo, consulte la wiki en &o&bappliedenergistics.github.io&f&r."
+			]
+			icon: "ae2:certus_quartz_crystal"
+			id: "2893F483C10293E6"
+			rewards: [
+				{
+					count: 8
+					id: "3B8F9C922DCD426E"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "04731B877AA067A3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Sistema de almacenamiento virtual"
+			tasks: [{
+				id: "43FD619EF9A41E76"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			title: "Applied Energistics 2"
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2893F483C10293E6"]
+			description: [
+				"Lo primero que necesitará para comenzar en AE2 es el &bInscriber&f."
+				""
+				""
+				"El &bInscriber&f se puede utilizar para convertir los distintos cristales de cuarzo de AE2 en su forma de polvo, pero lo más importante es que se utiliza para fabricar &eCircuitos&f y &eProcesadores&f especiales, como se verá más adelante."
+			]
+			id: "68B0B3DAF1145191"
+			rewards: [
+				{
+					id: "132524D80F352F06"
+					type: "random"
+				}
+				{
+					id: "230CB9AC06A29B7A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Algunas máquinas básicas"
+			tasks: [
+				{
+					id: "29C4195E8366DBDD"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "1F40760C2108BA36"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+			]
+			title: "Lo primero es lo primero"
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68B0B3DAF1145191"]
+			description: ["En este paquete, en lugar de tener que encontrar meteoritos para completar el conjunto, es posible fabricar las prensas utilizando algo de polvo de piedra del cielo tamizado de Dust. Consulte el registrador en JEI para obtener recetas."]
+			icon: {
+				Count: 1b
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
+			id: "51236544BFEF487B"
+			rewards: [
+				{
+					count: 4
+					id: "1745CCFAC5C46D28"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+				{
+					id: "34DBB0E01FC07555"
+					type: "random"
+				}
+				{
+					id: "53D03CFF7586058B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "\"CÓMIC #42: cazando a 4 bobby [Fischer]\""
+			tasks: [
+				{
+					id: "616E037C2D135DEE"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "23C1CFAE250033CD"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "4F4058686BD08FA9"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "58B223074092B8E4"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "Detener las prensas"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68B0B3DAF1145191"]
+			description: [
+				"Si bien el Inscriptor y el Cargador aceptarán RF/FE de forma nativa, la gran mayoría de una red ME utiliza su propio sistema de energía dedicado llamado AE."
+				""
+				"RF/FE se puede convertir en AE nativo en una proporción de 2:1 RF:AE, ya sea directamente a través de un controlador ME o a través del &bEnergy Acceptor&f, que en su lugar se puede conectar a cualquier parte de la red."
+			]
+			id: "00611844AFD5C31E"
+			rewards: [
+				{
+					id: "218200BE2C9DD409"
+					type: "random"
+				}
+				{
+					id: "241ED08CDD530739"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Enchufar"
+			tasks: [{
+				id: "5B4DDF66C36AF356"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00611844AFD5C31E"]
+			description: [
+				"De forma predeterminada, una red ME por sí sola solo tiene un búfer interno de 800AE sin un controlador ME, y el controlador agrega 8kAE adicionales por bloque. Para redes lo suficientemente grandes, esto puede resultar insuficiente."
+				""
+				"&bEnergy Cell&f permite que una red ME almacene significativamente más energía, agregando otros 200 kAE por celda de energía normal y 1,6 MAE por celda de energía &bDense&f. Estos también se pueden colocar en cualquier lugar de la red para proporcionar un mayor buffer de energía."
+			]
+			id: "037488EF1F3581CE"
+			rewards: [
+				{
+					id: "07AC6981E4FBB7B3"
+					type: "random"
+				}
+				{
+					id: "20DA7014A7644F65"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "19CE95EDCB04AA89"
+					item: {
+						Count: 1b
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3606A3CEDFF76F77"
+					item: {
+						Count: 1b
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["037488EF1F3581CE"]
+			description: ["La &bEnergy Card&f se puede aplicar a la mayoría de los dispositivos recargables, como celdas portátiles y terminales inalámbricas (que se tratan más adelante) para aumentar también su reserva de energía."]
+			id: "6D54B45CDA70FEAB"
+			rewards: [
+				{
+					id: "4807A39C56865642"
+					type: "random"
+				}
+				{
+					id: "198B5EB3662F4C18"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "42C1EB9094F67B62"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51236544BFEF487B"]
+			description: ["Una vez que haya obtenido un juego completo de las &eInscriber Presses&r requeridas, es hora de comenzar a fabricar algunos &eProcessors&f. Estos son un ingrediente de elaboración importante que se utiliza para hacer la gran mayoría de ME."]
+			id: "15564C11744D6AA0"
+			rewards: [
+				{
+					id: "6F428D141799FF83"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "622636484932AB15"
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2B6D34E0CD1999C9"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "54C120660252682A"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "41282D3DCFEB5136"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "Procesadores"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68B0B3DAF1145191"]
+			description: [
+				"Podría decirse que el recurso más importante que necesitará a continuación es &eFluix&f, que se utiliza en la gran mayoría de los dispositivos AE2 y que sirve como base para diseñar todo el cableado dentro de una red ME."
+				""
+				"Para empezar, cualquier meteorito que encuentres en el mundo contendrá un núcleo de 6 bloques Fluix, para un total de 24 cristales por meteorito."
+				""
+				"Sin embargo, normalmente querrás producirlos en masa, y la forma de hacerlo es comenzar haciendo &bFluix Dust&f lanzando &eNether Quartz&f, &e&oCharged&r&e Certus quartz&r y &eRedstone&f juntos."
+			]
+			icon: "ae2:fluix_crystal"
+			id: "4BF0BB763BFFACF0"
+			rewards: [
+				{
+					count: 4
+					id: "724ADD8BA4137929"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+				{
+					id: "6F34DE4A8A1E9829"
+					type: "random"
+				}
+				{
+					id: "34AA471D42A56F02"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "0FC1380E32E02533"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+				{
+					id: "4498692EC5F9E09B"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			title: "Fluix Crystal"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BF0BB763BFFACF0"]
+			description: [
+				"Para conectar la gran mayoría de su red ME, necesitará algún cable. &eME Glass Cable&f es el primer y más básico tipo de cable, y lo fabricarás durante todo el proceso como el primero "
+				""
+				"Tanto los cables de vidrio como su homólogo &ecovered&f pueden llevar hasta 8 canales a lo largo de un único tramo de cableado. A diferencia de los cables de vidrio, los cables cubiertos se pueden transformar posteriormente en cables cubiertos &edense&f."
+				""
+				"Todos los cables también se pueden elaborar con tinte para colorearlos. Los cables sin color ("
+				"Fluix"
+				") se pueden conectar a cualquier otro color de cable, pero de lo contrario, los cables de diferentes colores nunca se conectarán entre sí."
+			]
+			id: "5C22E3103544B120"
+			rewards: [
+				{
+					id: "23EF97F2F01671B6"
+					type: "random"
+				}
+				{
+					id: "2D1445E4299E8619"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "40A7CC56DACC2623"
+					item: "ae2:fluix_glass_cable"
+					title: "Cable de vidrio"
+					type: "item"
+				}
+				{
+					id: "64EAD3DE84E94F02"
+					item: "ae2:fluix_covered_cable"
+					title: "Cable cubierto"
+					type: "item"
+				}
+				{
+					id: "14DEFFB80CC96BC1"
+					item: "ae2:fluix_smart_dense_cable"
+					title: "Cable cubierto denso"
+					type: "item"
+				}
+			]
+			title: "Cableado Básico"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C22E3103544B120"]
+			description: ["El &bME Smart Cable&f y el &bDense Smart Cable&f funcionan de manera idéntica a los cables cubiertos en términos de distribución de canales, pero también mostrará visiblemente la cantidad de canales que están utilizando como líneas de colores a lo largo de sí mismas."]
+			id: "5233A447BAA4593C"
+			rewards: [
+				{
+					id: "7493EF469CDF6FB6"
+					type: "random"
+				}
+				{
+					id: "7F6B396987F63DB7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "5EBB888A8D38FAC8"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "\"S.M.R.T.\""
+			tasks: [
+				{
+					id: "7FC3DAA1BD5016A0"
+					item: "ae2:fluix_smart_cable"
+					title: "Cable inteligente"
+					type: "item"
+				}
+				{
+					id: "38E290AC5E011888"
+					item: "ae2:fluix_covered_dense_cable"
+					title: "Cable inteligente denso"
+					type: "item"
+				}
+			]
+			title: "Cableado avanzado"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15564C11744D6AA0"]
+			description: [
+				"Los &eTerminals&f brindan acceso a cualquiera de los contenidos de una red ME. El &eME Terminal&f estándar simplemente enumera todo lo que hay en la red como una gran cuadrícula de la que extraer e insertar, similar a un único inventario."
+				""
+				"&eME Crafting Terminal&f es una extensión de ME Terminal que también proporciona una cuadrícula de elaboración incorporada, permitiendo una elaboración cómoda utilizando cualquier elemento contenido en la red y visible a través de la pantalla del terminal."
+			]
+			id: "22C4318523A43B49"
+			rewards: [
+				{
+					id: "6D1EBB1DBB711A5A"
+					title: "Random Reward"
+					type: "random"
+				}
+				{
+					id: "7B32D21CD627FB4A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "[El chiste del usuario de Linux va aquí]"
+			tasks: [
+				{
+					id: "6C7282A058006A21"
+					item: "ae2:terminal"
+					type: "item"
+				}
+				{
+					id: "2CFD7CA282DFB2FF"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+			]
+			title: "Terminales"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"40A7CC56DACC2623"
+				"2F16B6A173525277"
+			]
+			description: [
+				"Podría decirse que el aspecto más importante de Applied Energistics 2 es su sistema de almacenamiento, que utiliza células de almacenamiento digitales. Se puede acceder a estas celdas a través de un &eME Chest&r para celdas individuales"
+				""
+				""
+				"El &bME Drive&f puede contener hasta 10 celdas de almacenamiento variadas en el espacio de un solo bloque y un solo canal ME. Sin embargo, no proporciona su propia pantalla de terminal, por lo que requiere algún terminal externo."
+			]
+			id: "4E8A05C3BFA80540"
+			rewards: [
+				{
+					id: "107B36337206758B"
+					type: "random"
+				}
+				{
+					id: "5D0CC7AC4BD78134"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Elementos como sistema de archivos."
+			tasks: [{
+				id: "58C4DF6CFBDF8577"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			title: "El almacenamiento"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40A7CC56DACC2623"]
+			description: [
+				"Para hacer la vida mucho más fácil, AE2 proporciona un conjunto completo de dispositivos para la manipulación de datos ME, es decir, mover elementos almacenados por todo el mundo."
+				""
+				"La &bME Interface&f es uno de estos dispositivos. Como dispositivo de entrada, la interfaz permite que cualquier elemento/fluido/etc. sea canalizado externamente a través de ella, que luego se almacena automáticamente en la red ME a la que está conectada la interfaz."
+				""
+				"Como dispositivo de salida, la Interfaz se puede configurar para mantener en stock una cierta cantidad disponible de un artículo almacenado, desde la red ME hasta su propio inventario interno. Esto permite que los elementos sean recibidos por alguna fuente externa como otro reproductor o alguna tubería."
+			]
+			icon: "ae2:interface"
+			id: "74FC0DDDB91DB172"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "12DC218C9BBC8422"
+					type: "random"
+				}
+				{
+					id: "341F5229D281635E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "OI, OI, OI!"
+			tasks: [{
+				id: "7241918F270CA402"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:interface"
+					}
+				}
+				title: "Interfaz ME"
+				type: "item"
+			}]
+			title: "La OI"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40A7CC56DACC2623"]
+			description: [
+				"El almacenamiento es bueno y todo eso, pero ¿de qué sirve un sistema de almacenamiento si está obstruido con materias primas que deben elaborarse y procesarse para convertirlas en algo y usted todavía tiene que hacerlo manualmente?"
+				""
+				"El sistema de &eauto-crafting&f de AE2 comienza con el &bME Pattern Provider&f. El proveedor de patrones contiene ciertos elementos llamados &bPatterns&f (que se tratan en la siguiente misión) que están programados para contener alguna receta que convierte los elementos de entrada en una determinada salida. En un proveedor pueden caber hasta 9 patrones."
+				""
+				"A menudo utilizarás múltiples proveedores de patrones repartidos por toda tu base, Es por eso que es útil tener una &bPattern Access Terminal&f para acceder de forma remota al contenido de todos y cada uno de los proveedores en su red ME más amplia."
+			]
+			icon: "ae2:pattern_provider"
+			id: "51DE3157DE3E57B8"
+			rewards: [
+				{
+					id: "50D0A08E66B3F6DF"
+					type: "random"
+				}
+				{
+					id: "12405240582D9D1A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Order up"
+			tasks: [
+				{
+					id: "338A6DA0D711B7DC"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:pattern_provider"
+						}
+					}
+					title: "Proveedor de patrones ME"
+					type: "item"
+				}
+				{
+					id: "299121F0AFF40604"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+			]
+			title: "Auto-Crafting"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"22C4318523A43B49"
+				"78311531069807DE"
+			]
+			description: [
+				"La última pieza del rompecabezas para cualquier red ME grande es el &bME Controller&f."
+				""
+				"Un controlador suministra a una red ME una cantidad mucho mayor de canales que los 8 canales estándar para redes ad-hoc, proporcionando 32 canales de cada cara del bloque para un total de 216 canales."
+				""
+				"Sin embargo, esto es sólo para un controlador de un solo bloque, ya que el controlador ME es de hecho una estructura de múltiples bloques. El controlador puede tener un tamaño de hasta 7x7x7 bloques y puede venir en cualquier disposición de forma libre dentro de ese tamaño máximo. Cada bloque individual puede proporcionar su propio conjunto de canales, siempre y cuando ningún bloque controlador esté rodeado por otros 4 bloques a lo largo del mismo plano."
+				""
+				"Una red ME solo puede contener un controlador multibloque en un momento dado. Intentar conectar más de un controlador en partes separadas de la red provocará un conflicto y cerrará toda la red."
+			]
+			id: "2F16B6A173525277"
+			rewards: [
+				{
+					id: "345C7C78BABD07F6"
+					type: "random"
+				}
+				{
+					id: "6593BF772EE96538"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6C80AA2FD67BD192"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2893F483C10293E6"]
+			description: [
+				"La &bQuartz Wrench&f hace lo que haría cualquier llave mod tecnológica normal. Gira bloques y dispositivos a lo largo de la cara en la que haces clic derecho y los desmantela cuando haces clic derecho mientras te escabulles."
+				""
+				"La llave AE2 viene en sabores Certus y Nether Quartz."
+			]
+			id: "1B686954D34A0F23"
+			rewards: [{
+				id: "3F733DD53ED27710"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "circle"
+			subtitle: "Hace exactamente lo que esperarías."
+			tasks: [{
+				id: "1076BC82EECB73F5"
+				item: "ae2:certus_quartz_wrench"
+				title: "Quartz Wrench"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"22C4318523A43B49"
+				"1076BC82EECB73F5"
+			]
+			description: [
+				"La &bNetwork Tool&f es una herramienta importante en AE2, que se utiliza para mostrar varios detalles de una red en pantalla, como el consumo general de energía y el almacenamiento."
+				""
+				"Como ventaja adicional, también proporciona su propio pequeño inventario que se utiliza para guardar tarjetas de actualización, al que se puede acceder mirando la pantalla de cualquier dispositivo actualizable para facilitar su reemplazo. Sin embargo, no puede rotar los bloques conectados a la red ME como una llave normal, solo desmantelarlos cuando se escabulle."
+			]
+			id: "6431A384DDFBF439"
+			tasks: [{
+				id: "7BDCDEB679A9969C"
+				item: "ae2:network_tool"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E8A05C3BFA80540"]
+			description: [
+				"Cada celda individual tiene una cierta capacidad dictada por el &ecomponente&f con el que se ha elaborado la celda."
+				""
+				"El primero de los componentes es el &b1k ME Storage Component&f, que proporciona &e1024&f \"bytes\" de almacenamiento para una celda determinada. Más sobre eso más adelante."
+				""
+				"Crea el componente 1k, que se combinará con la vivienda en la próxima misión."
+			]
+			id: "2FB231069D2E4E77"
+			rewards: [
+				{
+					id: "6E23A177701DE35C"
+					type: "random"
+				}
+				{
+					id: "7878EA4ADE367154"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "El primer kilobyte."
+			tasks: [{
+				id: "64CCF1FB42AA41CE"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			title: "Creando tu primera celda de almacenamiento"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"64CCF1FB42AA41CE"
+				"2FB231069D2E4E77"
+			]
+			description: ["El segundo nivel de componente de almacenamiento, que proporciona &e4096&f bytes de almacenamiento."]
+			id: "3B42CCC19D23EC6D"
+			rewards: [
+				{
+					id: "0DED7909D8F260FB"
+					type: "random"
+				}
+				{
+					id: "4D1AC818C4203ADC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "x4"
+			tasks: [{
+				id: "066F1BBF3D0863C5"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			title: "Componente de almacenamiento 4k"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"066F1BBF3D0863C5"
+				"3B42CCC19D23EC6D"
+			]
+			description: ["El tercer nivel de componente de almacenamiento, que proporciona &e16384&f bytes de almacenamiento."]
+			id: "219932CB19258C16"
+			rewards: [
+				{
+					id: "3D78D39AC9F9149F"
+					type: "random"
+				}
+				{
+					id: "42CEB9C64CCDCFEC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "x4^2"
+			tasks: [{
+				id: "076237ECA6D5DE58"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			title: "Componente de almacenamiento de 16k"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"076237ECA6D5DE58"
+				"219932CB19258C16"
+			]
+			description: ["El cuarto nivel de componente de almacenamiento, que proporciona &e65536&f bytes de almacenamiento."]
+			id: "523853C1C4E688BA"
+			rewards: [
+				{
+					id: "74692DCB87938B3B"
+					type: "random"
+				}
+				{
+					id: "16FC3AB2ACBFF4B3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "x4^3"
+			tasks: [{
+				id: "32FFC36DEEA7792D"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			title: "Componente de almacenamiento de 64k"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"32FFC36DEEA7792D"
+				"523853C1C4E688BA"
+			]
+			description: ["El quinto y último componente de almacenamiento de nivel estándar AE2, que proporciona &e262144&f bytes de almacenamiento."]
+			id: "5F56892CD904C40F"
+			rewards: [
+				{
+					id: "109149BBD22105C5"
+					type: "random"
+				}
+				{
+					id: "4DE1354173902859"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "x4^4"
+			tasks: [{
+				id: "2C4616CD2EBB58C6"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			title: "Componente de almacenamiento de 256k"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FB231069D2E4E77"]
+			description: [
+				"Con el componente de almacenamiento de 1k, ahora puede crear usted mismo una celda de almacenamiento de artículos ME de 1k para iniciar su sistema de almacenamiento de artículos digitales. Lo más probable es que desees que la mayor parte de tu almacenamiento sea para artículos, por lo que probablemente querrás crear algunas &bME celdas de almacenamiento de artículos&f."
+				""
+				"Las celdas de almacenamiento de artículos ME pueden contener cada una hasta 63 tipos diferentes de artículos. Cada nuevo tipo de elemento añadido a una celda ocupará una determinada fracción de la capacidad total de la celda de almacenamiento en bytes, normalmente 1/64. Para cada tipo ya presente, 1 \"byte\" cuenta para 8 elementos de ese mismo tipo."
+				""
+				""
+				"Si una celda está vacía, se puede reutilizar desmontándola en su componente y carcasa respectivos. Esto se hace deslizándose y haciendo clic derecho en el aire con la celda en la mano."
+				""
+				""
+			]
+			id: "361CCBD353D6FF34"
+			rewards: [
+				{
+					id: "402B607EA6D67580"
+					type: "random"
+				}
+				{
+					id: "318D3CF0DD1E3A58"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "08C87C31FF51A2AE"
+				type: "checkmark"
+			}]
+			title: "Almacenamiento de artículos"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["361CCBD353D6FF34"]
+			description: [
+				"Los artículos no son las únicas cosas que se pueden almacenar en las celdas ME. &bME Fluid Storage Cells&f puede almacenar líquidos como agua, lava y cualquier variedad de aceites y combustibles modificados, solo por dar algunos ejemplos."
+				""
+				"Tenga en cuenta que todas las celdas de almacenamiento, independientemente de para qué estén diseñadas para almacenar, solo difieren en términos de su alojamiento; Tanto las celdas de elementos como las de fluido utilizan el mismo tipo de componente de almacenamiento para su fabricación."
+				""
+				"Para fluidos, 1 byte equivale a 8 Cubos (8000 MB)."
+			]
+			id: "5E24012A3D9B72A1"
+			rewards: [
+				{
+					id: "1AB0AE41CCA6C48E"
+					type: "random"
+				}
+				{
+					id: "687E190D01E7344A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "61D93B13D496547D"
+				item: {
+					Count: 1b
+					id: "ae2:fluid_storage_cell_256k"
+					tag: { }
+				}
+				title: "ME Fluid Storage Cell"
+				type: "item"
+			}]
+			title: "Almacenamiento de fluidos"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E8A05C3BFA80540"]
+			description: [
+				"&bCell Workbench&f permite \"particionar\" celdas para contener elementos específicos, es decir, darles un filtro de lista blanca. También permite que la celda se actualice con ciertas tarjetas de actualización, como la Tarjeta Inverter, que configura la lista blanca antes mencionada como una lista negra."
+				""
+				"A las celdas también se les puede dar una \"prioridad\" mayor o menor a través del banco de trabajo, i.e. permitir que la celda sea la primera en recibir ciertos elementos hasta que se llene, o esperar a que otras celdas de mayor prioridad se llenen primero."
+			]
+			id: "2F556E7919582D2D"
+			rewards: [
+				{
+					id: "60C2464FFC06FB37"
+					type: "random"
+				}
+				{
+					id: "4956E92D2FDA5190"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "19F84B1451F7D602"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E8A05C3BFA80540"]
+			description: [
+				"El &bME IO Port&f permite reorganizar rápidamente el contenido del almacenamiento de una red ME entre diferentes medios de almacenamiento, como celdas ME y contenedores externos conectados a buses de almacenamiento."
+				""
+				"Cuando se inserta una celda en una ranura de entrada a la izquierda, el puerto IO se puede alternar para vaciar la celda en otros almacenamientos ME o llenar la celda (idealmente, dividida) con ciertos elementos distribuidos en otros almacenamientos."
+			]
+			id: "7B7D1F0CB326B28F"
+			rewards: [
+				{
+					id: "32864F0FE8996DE8"
+					type: "random"
+				}
+				{
+					id: "4531F48DEB750518"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Desfragmentación"
+			tasks: [{
+				id: "23261340EF9D48AF"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74FC0DDDB91DB172"]
+			description: ["El &bME Import Bus&f aspira periódicamente elementos de cualquier almacenamiento externo al que se enfrente el autobús. Opcionalmente, se puede filtrar para aceptar solo ciertos artículos de dicho inventario."]
+			id: "5E7E35CCAF1C88EE"
+			rewards: [
+				{
+					id: "6F34C1E65B9B9204"
+					type: "random"
+				}
+				{
+					id: "462A0C71B591C11F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "La i"
+			tasks: [{
+				id: "060BD30C77262BDA"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74FC0DDDB91DB172"]
+			description: ["El &bME Export Bus&f envía periódicamente elementos de su filtro de lista blanca a cualquier almacenamiento externo al que se enfrente el bus. A diferencia del Bus de Importación, el Bus de Exportación no puede funcionar sin ser filtrado."]
+			id: "083D458032F0325C"
+			rewards: [
+				{
+					id: "0F7B866B6B54A6D2"
+					type: "random"
+				}
+				{
+					id: "311337C7850C46F1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "La O"
+			tasks: [{
+				id: "6D6E070CB7998FA1"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5E7E35CCAF1C88EE"]
+			description: [
+				"El &bME Annihilation Plane&f se puede utilizar para romper automáticamente cualquier bloque que se encuentre frente a él y devolver todo lo que el bloque haya dejado caer directamente a la red ME."
+				""
+				"Como beneficio adicional, el Plano de Aniquilación se puede encantar de la misma manera que una herramienta de excavación normal, lo que afecta la caída de bloques de la misma manera que lo haría esa herramienta encantada. Esto lo hace ideal para procesar bloques de mineral cuando está encantado con Fortune, por ejemplo."
+				""
+				"Cualquier encantamiento agregado aumenta significativamente la cantidad de energía utilizada por el avión cada vez que se rompe un bloque. Encantar el avión con &eEfficiency&f disminuirá el uso general de energía incurrido por todos los demás encantamientos, mientras que el encantamiento &eUnbreaking&f le da al avión la oportunidad de usar solo cualquier energía."
+			]
+			id: "140DE53DC0FCD9F4"
+			rewards: [
+				{
+					id: "6EA69EB703D93D1F"
+					type: "random"
+				}
+				{
+					id: "43B0C50B9F25E213"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "ENTRA"
+			tasks: [{
+				id: "3F715007AD9C0D58"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["083D458032F0325C"]
+			description: [
+				"El &bME Formation Plane&f actúa de manera similar al Storage Bus, pero trata al mundo mismo como su medio de almacenamiento. En otras palabras, colocará cualquier bloque en su filtro directamente frente a él."
+				""
+				"Esto puede resultar útil para situaciones en las que un bloque se puede procesar simplemente colocándolo y rompiéndolo con una determinada herramienta."
+			]
+			id: "525F25F4ADE45B50"
+			rewards: [
+				{
+					id: "0850790D93DB56E2"
+					type: "random"
+				}
+				{
+					id: "4DA3D1592D0E57DA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "SALIR"
+			tasks: [{
+				id: "0BEBC087F970093E"
+				item: "ae2:formation_plane"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74FC0DDDB91DB172"]
+			description: [
+				"&bP2P&f (peer-to-peer) es un poderoso sistema dentro de AE2, que permite la transferencia de artículos, fluidos e incluso más sin la necesidad de ningún almacenamiento ME intermediario."
+				""
+				"Al hacer clic derecho en un túnel P2P con ciertos elementos, el túnel se sintonizará y se convertirá en uno capaz de transferir algo más, como elementos a través de tuberías, energía a través de cables, señales de Redstone y (de forma predeterminada) incluso las propias conexiones ME."
+				""
+				"Los túneles P2P deben estar conectados entre sí mediante el uso de una &eMemory Card&f, que se detalla en la siguiente misión."
+			]
+			id: "1710B3D05215A71E"
+			rewards: [
+				{
+					id: "005990362F9FDD61"
+					type: "random"
+				}
+				{
+					id: "682CBB4D63EC2625"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Elimina al intermediario"
+			tasks: [{
+				id: "36A7C775D94798EE"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			title: "Túneles P2P"
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74FC0DDDB91DB172"]
+			description: [
+				"El &bME Storage Bus&f, cuando se enfrenta a algún contenedor de almacenamiento externo, permitirá que el contenedor se use como si fuera parte de la red ME, permitiendo sacar elementos del contenedor o insertarlos en él únicamente a través de ME."
+				""
+				"Los buses de almacenamiento se pueden filtrar y asignar prioridades específicas, de modo que elementos específicos intenten ir primero al almacenamiento adjunto; sin embargo, no moverá retroactivamente ningún elemento filtrado de ningún lugar."
+			]
+			id: "7EFBAF3E281D2EBE"
+			rewards: [
+				{
+					id: "7EC06E5DA9EA41BC"
+					type: "random"
+				}
+				{
+					id: "74C059194CC4F45D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "el cofre de repuesto"
+			tasks: [{
+				id: "294FA6663BE38B7C"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1710B3D05215A71E"]
+			description: [
+				"La &bMemory Card&f es una herramienta con diferentes funciones.  La más sencilla de las dos es guardar las configuraciones de varios dispositivos (como los filtros de la lista blanca) para copiarlas en otro dispositivo del mismo tipo."
+				""
+				"La segunda función de una tarjeta de memoria es vincular túneles eP2P entre sí. Al hacerlo, al túnel P2P que se está vinculando se le asignará una identificación única, que se almacena en la tarjeta de memoria para su posterior vinculación."
+			]
+			id: "55186B8602689B66"
+			rewards: [
+				{
+					id: "433DCE2CD821C784"
+					type: "random"
+				}
+				{
+					id: "58A650BEBD72CCDB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "2D19A4EF2E4B7A55"
+				item: {
+					Count: 1b
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				title: "Memory Card"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F556E7919582D2D"]
+			description: [
+				"La &bEqual Distribution Card&f es una actualización para celdas de almacenamiento que preasigna una cierta cantidad de artículos que pueden ser utilizados por cualquier tipo individual."
+				""
+				"Este comportamiento es comparable a algo así como un cajón de almacenamiento funcional, en el que cada compartimento contiene un número determinado de pilas en lugar de permitir que los artículos de un compartimento se filtren hacia los demás y expulsen otros tipos de artículos."
+			]
+			id: "3195A7AA874163CD"
+			rewards: [
+				{
+					id: "70C47DA0DCEA52BB"
+					type: "random"
+				}
+				{
+					id: "7425BEBDF51C1684"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "Drawers de almacenamiento ME &mCells&r"
+			tasks: [{
+				id: "5E1E2F6E86A3E0F3"
+				item: "ae2:equal_distribution_card"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F556E7919582D2D"]
+			description: ["La &bOverflow Destruction Card&f es una actualización de celda que permite que las celdas de almacenamiento eliminen (anulen) cualquier elemento de un tipo que ya esté contenido en ellas, cuando se intenta ingresar a la celda y la celda ya está llena."]
+			id: "33ADE41526C39AFD"
+			rewards: [
+				{
+					id: "7FDED9CF7F39532F"
+					type: "random"
+				}
+				{
+					id: "48C92D1EB16C0CA2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "2D72E699C4D506CE"
+				item: "ae2:void_card"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["361CCBD353D6FF34"]
+			description: [
+				"Las &bPortable Cells&f funcionan de manera idéntica a las celdas normales en el sentido de que pueden insertarse en un cofre o unidad y llenarse en consecuencia."
+				""
+				"Sin embargo, a diferencia de las celdas normales, también se puede acceder a su contenido de forma independiente a través del propio elemento de la celda, un poco como una mochila digital con sabor a ME."
+			]
+			id: "77C9EE701F72586D"
+			rewards: [
+				{
+					id: "6A5F5E6ABCD405F1"
+					type: "random"
+				}
+				{
+					id: "3280EFC4446DD684"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "65C439FD14C5EEB9"
+				item: {
+					Count: 1b
+					id: "ae2:portable_item_cell_4k"
+					tag: { }
+				}
+				title: "ME Portable Cell"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7EFBAF3E281D2EBE"]
+			description: ["La &bCapacity Card&f permite que un autobús actualizado con ella lleve un filtro más grande.  Los autobuses de Importación y Exportación actualizados con tarjetas de capacidad pueden pasar de admitir solo un elemento filtrado cada uno a su filtro máximo de nueve ranuras, mientras que los autobuses de Almacenamiento pasarán de 18 ranuras a un máximo de 63."]
+			id: "371A382CF1DDF2B2"
+			rewards: [
+				{
+					id: "370E5557C95C8C9D"
+					type: "random"
+				}
+				{
+					id: "45FEE3C549C049B0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "6DC55B5EA1534444"
+				item: "ae2:capacity_card"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2893F483C10293E6"]
+			description: [
+				"La forma más sencilla de obtenerlos será utilizando todo el &eDust&f que has reunido hasta ahora para hacer &eSeeds&f."
+				""
+				"Para convertir las semillas en cristales completos, simplemente colóquelas en agua y espere a que crezcan.  No desaparecerán a medida que crezcan.  Al principio, estos tardarán más tiempo en crecer, así que considere fabricarlos al por mayor."
+				""
+				"Alternativamente, la &bEnrichment Chamber&f de Mekanism se puede utilizar para obtener una importante ventaja desde el principio."
+				""
+				"Puede notar que un cristal de cuarzo Certus completamente desarrollado se puede triturar hasta convertirlo en polvo, lo que luego hace que crezcan otras dos semillas.  Esto hace que Certus Quartz sea efectivamente renovable, ¡así que úselo a su favor!"
+			]
+			id: "23DB492528A25B25"
+			rewards: [
+				{
+					id: "242F6B674493768E"
+					type: "random"
+				}
+				{
+					id: "69F44152600E491B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "Acuicultura cristalina"
+			tasks: [{
+				id: "0AFE928466695096"
+				item: "ae2:certus_crystal_seed"
+				type: "item"
+			}]
+			title: "Crystal Seeds"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74FC0DDDB91DB172"]
+			description: [
+				"Un concepto importante dentro de AE2 es una técnica conocida como \"&esubnetting&f\", en la que una red ME separada adicional (una &essubnetwork&f) actúa en conjunto con la red principal para realizar algunas tareas especializadas."
+				""
+				"Lo que separa una subred de una red separada completamente separada suele ser el uso de &bQuartz Fiber&f como pieza de cable.  Cuando se coloca entre dos tramos de cable que de otro modo no estarían conectados, la fibra de cuarzo no transfiere datos ni canales entre los dos, sino que solo transmite energía."
+				""
+				"Por lo tanto, una subred al otro lado de la fibra puede recibir energía completamente de la fuente de energía de la red principal, sin requerir ningún generador de energía dedicado adicional."
+			]
+			id: "2077D64428E9C067"
+			rewards: [
+				{
+					id: "165710BE640551ED"
+					type: "random"
+				}
+				{
+					id: "3337CC6EF03730C7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Esto tiene un uso fuera de la elaboración de cables."
+			tasks: [{
+				id: "05A8DD006B623032"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			title: "Olvide mencionar"
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51DE3157DE3E57B8"]
+			description: [
+				"&bPatterns&f son los que contienen una receta codificada que debe cumplir un proveedor de patrones.  Para codificar una receta en un patrón, se debe utilizar &bME Pattern Encoding Terminal&f."
+				""
+				"Los patrones se pueden configurar para contener una receta de &ecrafting&f normal, que requerirá el uso de un &eMolecular Assembler&f en la cara de su proveedor, o una receta de \"&eprocessing&f\" más general, en la que el proveedor puede enviar cualquier elemento de entrada.  en algún otro bloque de máquinas o planta de procesamiento especializada."
+			]
+			icon: "ae2:blank_pattern"
+			id: "2C04B3BA507D5673"
+			rewards: [
+				{
+					count: 8
+					id: "7E23E751506B04D0"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "0741594A950C662F"
+					type: "random"
+				}
+				{
+					id: "20EB24D02799A27D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "58BF9A4EAD7C88E6"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "08D08A1400F7348F"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "Patrones"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C04B3BA507D5673"]
+			description: [
+				"El &bMolecular Assembler&f es el equivalente de AE2 a una mesa de elaboración automática, necesaria para realizar todos y cada uno de los trabajos de patrones de &bMolecular&f."
+				""
+				"Los ensambladores moleculares son capaces de transferir energía y canales a otros dispositivos ME conectados a ellos, pero no ocuparán un canal por sí mismos.  Se pueden conectar hasta 6 MA a un único proveedor de patrones (si se utiliza) para permitir realizar más manualidades en paralelo."
+				""
+				"Los MA también tienen cada uno su propia ranura dedicada para un único patrón de elaboración, lo que les permite funcionar de forma independiente cuando están encendidos.  Cuando se opera de esta manera, cualquier elemento coincidente insertado en el MA se creará automáticamente en el resultado del patrón."
+			]
+			id: "4597D3B3BDC2BED5"
+			rewards: [
+				{
+					id: "48E60A68CD703710"
+					type: "random"
+				}
+				{
+					id: "59D9A5E482B1D2A6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5639418C0364E5A1"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["51DE3157DE3E57B8"]
+			description: [
+				"El &bME Level Emitter&f, cuando se configura con un elemento específico y una cantidad del mismo al que responder, emitirá una señal de piedra roja dependiendo de si ese elemento almacenado en la red cae por debajo, supera o iguala la cantidad dada."
+				""
+				"Esto se puede usar, por ejemplo, para encender automáticamente ciertas máquinas con redstone para crear automáticamente un recurso cuando cae por debajo de una cantidad mínima determinada."
+			]
+			id: "3DDB0DDA7571B2C1"
+			rewards: [
+				{
+					id: "7791DE05E46C6030"
+					type: "random"
+				}
+				{
+					id: "2465F9C03BFFB3B8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3E4BDC8D3B7F727C"
+				item: "ae2:level_emitter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3DDB0DDA7571B2C1"]
+			description: [
+				"Los dispositivos ME individuales también se pueden configurar para responder a señales de Redstone.  Cuando se actualiza con una &bRedstone Card&f, un dispositivo se puede configurar para que funcione solo cuando se alimenta con Redstone o de otro modo, según sea necesario."
+				""
+				"Este comportamiento también se puede aplicar a &osecciones&r completas de una red ME mediante el uso de un &bME Toggle Bus&f.  Esto permite que una sección de la red en el otro lado del bus se conecte solo cuando el bus está alimentado por redstone, o se desconecte si se usa un bus de palanca &einvertido&f."
+			]
+			id: "1AAF0B31B47AF23D"
+			rewards: [
+				{
+					id: "15D28C974906C579"
+					type: "random"
+				}
+				{
+					id: "11376476D428D86A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "4D92DB15F45D3F10"
+					item: "ae2:redstone_card"
+					type: "item"
+				}
+				{
+					id: "651CCE50554D6ABC"
+					item: "ae2:toggle_bus"
+					type: "item"
+				}
+			]
+			title: "ME controlado por Redstone"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1AAF0B31B47AF23D"]
+			description: [
+				"Cuando se aplica como una actualización a cualquier dispositivo compatible, como una interfaz o un bus de exportación, la &bCrafting Card&f permite que el dispositivo en cuestión envíe automáticamente sus propias solicitudes de elaboración para un artículo requerido (filtrado).  Las CPU de creación se pueden configurar para que respondan solo a estas solicitudes para evitar que se utilicen CPU destinadas a las artesanías solicitadas por los jugadores."
+				""
+				"Cuando el &eLevel Emitter &rse actualiza con la Tarjeta de elaboración, se puede configurar para emitir piedra roja con el fin de facilitar directamente la elaboración, emitiendo una senal ya sea &omientras &rse detecta un trabajo de elaboración para el artículo determinado o específicamente para elaborar el artículo.  Esto último se aplicaría en los casos en los que lo único que se necesita para fabricar un artículo determinado es una senal de piedra roja, sin siquiera requerir un patrón de elaboración."
+			]
+			id: "5E6585F7627247E3"
+			rewards: [
+				{
+					id: "24B873E672174D86"
+					type: "random"
+				}
+				{
+					id: "09DCAA3326CEE78F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "¡Automatización en forma de actualización!"
+			tasks: [{
+				id: "356C06E894DC659B"
+				item: "ae2:crafting_card"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51DE3157DE3E57B8"]
+			description: [
+				"Naturalmente, AE2 proporciona su propia forma de acelerar drásticamente el crecimiento de los cristales, suponiendo que no tengas a mano la cámara de enriquecimiento del mecanismo."
+				""
+				"Colocar un bloque de fuente de agua dentro de un conjunto completo de 5 &bCrystal Growth Accelerators&f reducirá el tiempo de crecimiento de las semillas de cristal de 20 minutos sin aceleración a tan solo 24 segundos."
+			]
+			id: "5AA3E5DFECB4AC4D"
+			rewards: [
+				{
+					id: "0BE24B3629BD5016"
+					type: "random"
+				}
+				{
+					id: "67FE782D7A821701"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "5F33C4F4AD2F297B"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["51DE3157DE3E57B8"]
+			description: ["El &bAdvanced Inscriber&f de &dAE2Things&f soluciona un par de deficiencias del inscriptor AE2 estándar, a saber, la restricción de las entradas que se insertarán una a la vez y el requisito de extracción/inserción lateral."]
+			id: "4DEACC65B5FA57FC"
+			rewards: [
+				{
+					id: "601630EECA58E634"
+					type: "random"
+				}
+				{
+					id: "56BE72089A3373E1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "552FB43EA62C6AA3"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5AA3E5DFECB4AC4D"]
+			description: [
+				"La &bCrystal Growth Chamber&f es una alternativa más compacta a las configuraciones de Crystal Growth Accelerator como las mencionadas anteriormente, proporcionadas por el complemento &dAE2Things&f."
+				""
+				"Este dispositivo de un solo bloque simplemente contiene un inventario no muy diferente al de un cofre estándar, capaz de contener hasta 27 pilas de semillas de cristal para crecer dentro de la cámara.  La cámara también se puede actualizar con tarjetas de aceleración para acelerarla aún más."
+			]
+			id: "77EE3FF184FB6417"
+			rewards: [{
+				id: "0D1F1C3657656C66"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "56A4576AD40FB08D"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["361CCBD353D6FF34"]
+			description: [
+				"AE2 y Refined Storage son muy similares en términos de almacenamiento de elementos, excepto cuando se trata de que AE2 tenga &eType Limits&r dentro de las unidades. Algunas personas prefieren no preocuparse por los tipos de elementos o los límites de tipos."
+				""
+				"Aquí es donde entra en juego &dAE2Things&f. Además de las dos máquinas adicionales, AE2Things presenta predominantemente una alternativa a la celda estándar llamada \"ME Deep Item Storage disK\", o &bME DISK Drive&f para abreviar."
+				""
+				"La unidad de DISCO, como se puede imaginar, funciona de manera muy similar, si no exactamente igual, a los discos de almacenamiento de &bRefined Storage&f.  Principalmente, "
+				"no"
+				"tienen"
+				"l"
+				"ímites"
+				"de"
+				"tipo"
+				"."
+				""
+				"Sin embargo, las mismas ventajas de los discos RS también conllevan las mismas desventajas.  Los elementos almacenados en un DISCO cuentan cada uno como un byte completo independientemente del \"tipo\", lo que significa que pueden almacenar significativamente menos elementos que las celdas estándar de tamaño equivalente en general."
+				""
+				"Además, el mal uso de estos DISCOS, particularmente al almacenar una gran cantidad de elementos con cantidades excesivas de datos NBT, puede tener consecuencias bastante graves para el mundo en el que se juega, como \"prohibiciones de fragmentos\" o incluso datos corruptos del jugador."
+			]
+			id: "17F29706CE9A846E"
+			rewards: [
+				{
+					id: "70BE5C50D5B1049F"
+					type: "random"
+				}
+				{
+					id: "21A01E1077934041"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: ">muh discos RS"
+			tasks: [{
+				id: "5A4954089684B71A"
+				item: "ae2:drive"
+				title: "ME DISK Drive"
+				type: "item"
+			}]
+			title: "Almacenamiento de artículos &oprofundo&r"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4597D3B3BDC2BED5"]
+			description: [
+				"La &bTarjeta de aceleración&f, dependiendo del dispositivo que se actualice con ella, aumentará la velocidad a la que opera el dispositivo o permitirá que el dispositivo realice más operaciones de una sola vez."
+				""
+				"En el caso del &eMolecular Assembler&f, un juego completo de 5 cartas reduce el tiempo que le toma al MA completar una nave de un segundo (sin cartas) a un &otick&r."
+			]
+			id: "1F7DFA5AA65F2812"
+			rewards: [
+				{
+					id: "6223D6D4A01B9122"
+					type: "random"
+				}
+				{
+					id: "394DBCEAD38760C0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "495253F1301A8070"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["40A7CC56DACC2623"]
+			description: [
+				"Además del almacenamiento de elementos y fluidos, AE2 también proporciona una forma nativa de almacenar estructuras completas dentro de celdas de almacenamiento, no muy diferente al mod Compact Machines."
+				""
+				"El &bSpatial IO Port&f permite capturar estructuras contenidas dentro de una &bSpatial Containment Structure&f dentro de una celda de almacenamiento especialmente diseñada, activada a través de una señal de redstone."
+				""
+				"Si una mafia o un jugador se encuentra dentro del SCS mientras se captura el espacio, ellos también serán transportados a donde va el resto del espacio, es decir, a una dimensión dedicada.  Solo asegúrate de tener una forma de volver a entrar y salir si eres tú quien está siendo capturado."
+			]
+			id: "01F3F0C25BA72BDA"
+			rewards: [
+				{
+					id: "2AB07DF6AB7560BF"
+					type: "random"
+				}
+				{
+					id: "71A9F7793267D5CD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0EFC322997906572"
+				item: "ae2:spatial_io_port"
+				type: "item"
+			}]
+			title: "Spatial IO"
+			x: 11.799999999999997d
+			y: 4.050000000000001d
+		}
+		{
+			dependencies: ["01F3F0C25BA72BDA"]
+			description: [
+				"La Estructura de Contención Espacial (SCS) consta de una jaula de &bSpatial Pylons&f que cubre el volumen que desea encerrar en una celda de IO espacial.  Como mínimo absoluto, un SCS requiere tres líneas de bloques de pilones espaciales, uno para cada dimensión del espacio contenido (largo, ancho, alto)."
+				""
+				"Sin embargo, Spatial IO es una característica que consume mucha energía, especialmente cuando se intenta capturar espacios mucho más grandes (hasta 128x128x128).  Tener más torres espaciales incluidas en el SCS alrededor del volumen deseado aumentará su eficiencia general, permitiéndole usar menos energía para capturar."
+				""
+				"Además, tenga en cuenta que cada torre individual (independientemente de su longitud) ocupa un canal.  Para espacios particularmente grandes, es posible que desee construir una red dedicada con un controlador para adaptarse a todos los pilones necesarios."
+			]
+			id: "18DFB25DC48D8BF7"
+			rewards: [
+				{
+					id: "664A4B1C34FC382C"
+					type: "random"
+				}
+				{
+					id: "60430373241A6839"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "4E0C5E3A98293C08"
+				item: "ae2:spatial_pylon"
+				title: "Componente de celda espacial"
+				type: "item"
+			}]
+			title: "Spatial Pylon"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18DFB25DC48D8BF7"]
+			description: ["&bSpatial Anchor&f es un dispositivo complementario del linaje Spatial IO que simplemente funciona como un cargador de fragmentos.  Cuando se conecta a una red ME, Anchor cargará forzosamente todos los fragmentos ocupados por la red ME en todos los cables y dispositivos, excluyendo las subredes, siempre que la red permanezca alimentada."]
+			id: "2897FA291E5A38D8"
+			rewards: [
+				{
+					id: "1560015D5E8AFFEA"
+					type: "random"
+				}
+				{
+					id: "29737736E2B314EA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "68A36AB341CC016D"
+				item: "ae2:spatial_anchor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18DFB25DC48D8BF7"]
+			description: [
+				"Las &bSpatial Storage Cells&f se utilizan para contener un volumen definido cada una y vienen en tres capacidades diferentes, lo que permite un espacio máximo de bloques de 2x2x2, 16x16x16 y 128x128x128."
+				""
+				"Tras la codificación, a una celda se le asigna una sección de espacio dentro de la &dimensión&f de almacenamiento espacial, junto con una identificación única correspondiente a la región asignada a la celda.  Aún se puede utilizar una celda codificada dentro del puerto IO espacial para recuperar cualquier bloque y entidad almacenados."
+				""
+				"A partir de entonces, cualquier bloque contenido dentro de la región del espacio de la celda o en un SCS con el mismo tamaño que el utilizado para la codificación inicial se puede mover de regreso al supramundo o a la dimensión espacial, respectivamente.  Si hay bloques tanto dentro de la región espacial como dentro del SCS, estos simplemente intercambiarán lugares en consecuencia."
+			]
+			id: "6F3D0A248B5A9CA2"
+			rewards: [
+				{
+					id: "40FB6290F9B4CF05"
+					type: "random"
+				}
+				{
+					id: "0CB125E5654F810B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "75924053D6F5B242"
+				item: "ae2:spatial_storage_cell_2"
+				title: "Celda de almacenamiento espacial"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51DE3157DE3E57B8"]
+			description: [
+				"Antes de poder llevar a cabo un trabajo de creación automática, necesita un dispositivo para almacenar la solicitud junto con cualquier elemento provisional para manualidades de varios pasos.  Este dispositivo se conoce como CPU de elaboración."
+				""
+				"Una CPU de Crafteo es una estructura multibloque que requiere al menos un bloque &bCrafting Storage&f, opcionalmente junto con cualquier otra unidad de artesanía.  El multibloque se puede fabricar en cualquier tamaño, pero debe ser un cuboide sólido para poder formarse y funcionar en consecuencia."
+			]
+			id: "30E853CE699E669B"
+			rewards: [
+				{
+					id: "380CA842CF1F8374"
+					type: "random"
+				}
+				{
+					id: "57230DB26A88BF90"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Descargar más RAM"
+			tasks: [{
+				id: "08DA73B1AC17E5F5"
+				item: "ae2:1k_crafting_storage"
+				title: "Almacenamiento de Crafteo"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30E853CE699E669B"]
+			description: [
+				"La &bCrafting Co-Processing Unit&f ayuda a acelerar los trabajos de elaboración al permitir que los proveedores de patrones envíen elementos a sus dispositivos conectados más rápido o trabajen simultáneamente para crear múltiples ingredientes necesarios."
+				""
+				"El coprocesador básico AE2 proporciona un \"hilo\" de coprocesador para ayudar en esto."
+			]
+			id: "69B7DE2283B4EE6C"
+			rewards: [
+				{
+					id: "30447C55F39E6DA1"
+					type: "random"
+				}
+				{
+					id: "33A5EAC376E2828C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Descargar más núcleos de CPU"
+			tasks: [{
+				id: "5EC8D891031E34EF"
+				item: "ae2:crafting_accelerator"
+				title: "Coprocesador de elaboración"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69B7DE2283B4EE6C"]
+			description: ["El &bCrafting Monitor&f muestra el artículo general que se está elaborando, junto con la cantidad restante de ese artículo que aún se está elaborando."]
+			id: "1348995F64A94396"
+			rewards: [
+				{
+					id: "67F817808F544C51"
+					type: "random"
+				}
+				{
+					id: "77A6ACEA6F5542AF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Descargar más VRAM"
+			tasks: [{
+				id: "2D386EFC23C45581"
+				item: "ae2:crafting_monitor"
+				title: "Crafting Monitor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C22E3103544B120"]
+			description: [
+				"El &bQuartz Cutting Knife&f, al igual que la llave, viene en sabores de cuarzo inferior y certus y es una herramienta de elaboración útil para tener a mano."
+				""
+				"Los cables también se pueden separar sin necesidad de colorearlos colocando un &bCable Anchor&f entre ellos, elaborado con este cuchillo y que se puede fabricar hasta 50 veces con el mismo cuchillo antes de que se rompa."
+				""
+				"Los anclajes para cables también se pueden utilizar para crear fachadas de cables, lo que le permite ocultar cables dentro de las paredes cubriéndolos con la cara de un bloque arbitrario.  Si bien las recetas de fachadas están ocultas en JEI, aún puedes crearlas tomando cualquier bloque normal y rodeándolo con 4 anclajes de cable en la cuadrícula de elaboración."
+				""
+				"Además de crear anclas, el cuchillo de corte también tiene otro uso: al hacer clic derecho con el cuchillo se abrirá una pequeña GUI que le permitirá crear &bInscriber Name Presses&f.  Cuando se les da un nombre, estas prensas se pueden usar dentro de un Inscriber para cambiar el nombre de cualquier elemento de entrada con el nombre de la prensa.  Se pueden concatenar dos de estas prensas en el inscriptor para cambiar el nombre del artículo al nombre de la prensa superior, seguida de la inferior."
+			]
+			icon: "ae2:cable_anchor"
+			id: "6144202A97C6CD1C"
+			rewards: [
+				{
+					id: "4330FAC592266D62"
+					type: "random"
+				}
+				{
+					id: "0BAC4AB615750E48"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Bajo el cuchillo"
+			tasks: [
+				{
+					id: "23D186249A999B8C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:knife"
+						}
+					}
+					title: "Cuchillo de corte de cuarzo"
+					type: "item"
+				}
+				{
+					id: "2B8EC37AF863F9A6"
+					item: "ae2:cable_anchor"
+					type: "item"
+				}
+				{
+					id: "1FFAB0FE9A2D46F2"
+					item: {
+						Count: 1b
+						id: "ae2:name_press"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Cable Anchor"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"066F1BBF3D0863C5"
+				"19CE95EDCB04AA89"
+				"5C22E3103544B120"
+			]
+			description: [
+				"El &bColor Applicator&f es una herramienta recargable que permite teñir cables en el mundo.  Funciona más o menos como una celda de almacenamiento especializada que se carga con tintes de vainilla o bolas de pintura para colores específicos, junto con bolas de nieve para lavar los colores y devolver los cables a su variante Fluix."
+				""
+				"Aplicar color a un cable utiliza 100AE de energía de su batería interna, para un total de 3400 segmentos de cable en una sola carga."
+			]
+			id: "03E6FA4DCB71162E"
+			rewards: [
+				{
+					id: "72469A8B94967668"
+					type: "random"
+				}
+				{
+					id: "2AD4CA497DAF5DDE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6691176371563341"
+				item: {
+					Count: 1b
+					id: "ae2:color_applicator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Aplicador de color"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"40A7CC56DACC2623"
+				"2FB231069D2E4E77"
+			]
+			description: [
+				"Estos últimos tres elementos son más o menos juguetes adicionales proporcionados por AE2 y no necesariamente encajan en ninguno de estos árboles de misiones."
+				""
+				"El &bCharged Staff&f es solo un simple bastón motorizado que causa 3 corazones de daño y consume 300AE por golpe.  También utiliza mecánicas de combate anteriores a la 1.9, lo que significa que puedes hacer clic spam con esto como en los viejos tiempos."
+				""
+				"El &bEntropy Manipulator&f, cuando se utiliza en ciertos bloques del mundo, los fundirá en el lugar, como arena en vidrio y minerales metálicos en lingotes de metal.  De lo contrario, simplemente encenderá un fuego en el bloque."
+				""
+				"Finalmente, el &bMatter Cannon&f funciona de manera similar al Color Applicator como una celda dedicada para contener elementos de \"munición\" como bolas de materia y pepitas de hierro/oro, que luego pueden dispararse para causar daño a los mobs o romper bloques.  \"Munición\" más pesada, p.  pepitas de metal causarán más daño y destruirán bloques más duros."
+				""
+				"Las bolas de materia en un cañón de materia se pueden sustituir por &bPaint Balls&f, que aplicarán un efecto de salpicadura de pintura en la cara de cualquier bloque al que se dispare.  Las &bLumen Paint Balls&f son una variante de las bolas de pintura utilizadas exclusivamente por Matter Cannon, cuyas salpicaduras de pintura también emiten algo de luz que alguna vez estuvieron presentes en el mundo."
+			]
+			hide_dependency_lines: true
+			id: "5CD8D169181C7339"
+			rewards: [
+				{
+					id: "653C5DBC5B2DFB83"
+					type: "random"
+				}
+				{
+					id: "79695D39F0DA9907"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			subtitle: "Demasiado calor para la ATF"
+			tasks: [
+				{
+					id: "3AC5F84892DC0717"
+					item: "ae2:charged_staff"
+					type: "item"
+				}
+				{
+					id: "68BE70918BD7F81B"
+					item: "ae2:entropy_manipulator"
+					type: "item"
+				}
+				{
+					id: "3B720F63D105F7DF"
+					item: {
+						Count: 1b
+						id: "ae2:matter_cannon"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "¿Las armas?"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5BB887411B8B38FA"]
+			description: ["Lo siguiente que debe hacer para permitir el acceso a la red inalámbrica es el &bME Wireless Access Point&f.  El punto de acceso se utiliza para abrir la red al acceso inalámbrico a través de un &bterminal inalámbrico&f, y tiene un alcance establecido (finito) dependiendo de cuántos &bWireless Boosters&f se insertan en el punto de acceso."]
+			id: "2B31E6C1707D8195"
+			rewards: [
+				{
+					id: "72CFEEE18B84AC11"
+					type: "random"
+				}
+				{
+					id: "7C6512C24B5A19A3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3DF8F1A72EBCD73F"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "60F10069FD956D54"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"En cuanto a la expansión inalámbrica de la propia red ME, es cierto que el primer paso es algo poco ortodoxo."
+				""
+				"El &bMatter Condenser&f es la versión de AE2 de un bote de basura, que anula cualquier elemento insertado en él.  Sin embargo, cuando está equipado con un &eStorage Component&f, el condensador puede aprovechar parte de la energía sobrante del elemento que se está anulando y almacenarla para crear dos elementos de elaboración especiales a partir de suficiente energía concentrada."
+				""
+				"El primero de estos dos elementos es &bMatter Ball&f, que requiere al menos un componente de almacenamiento de 1k y 256 elementos de material anulado."
+			]
+			id: "5BB887411B8B38FA"
+			rewards: [
+				{
+					id: "3AF0C07815901F6E"
+					type: "random"
+				}
+				{
+					id: "0F9CCE69ADAF459C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "184FBC2F91C37271"
+					item: "ae2:condenser"
+					type: "item"
+				}
+				{
+					id: "167B710CB84B12C1"
+					item: "ae2:matter_ball"
+					type: "item"
+				}
+			]
+			title: "Materia Condensada"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B31E6C1707D8195"]
+			description: [
+				"El &bTerminal inalámbrico&f funciona de manera idéntica a un terminal normal, pero de forma inalámbrica.  Imagínate."
+				""
+				"Antes de que se pueda utilizar un terminal inalámbrico para acceder a una red, primero se debe &evincular&f a la red a través del &eSecurity Terminal&f que creó anteriormente.  Si no está conectado a una red, o está fuera de alcance o energía, el terminal no funcionará."
+				""
+				"Los terminales inalámbricos también se pueden actualizar con &eEnergy Cards&f para proporcionar una batería interna más grande."
+			]
+			id: "16299B9AE87257DC"
+			rewards: [
+				{
+					id: "7C69F2A048685089"
+					type: "random"
+				}
+				{
+					id: "3A1C068ABC13E7EE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Para esto estás aquí"
+			tasks: [
+				{
+					id: "195B7DC4D7815D29"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "384594EA34F0985B"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["16299B9AE87257DC"]
+			description: ["El complemento &dAEInfinityBooster&f proporciona dos amplificadores inalámbricos personalizados que permiten un rango de conectividad infinito, con soporte multidimensional opcional."]
+			id: "234DC1702333EB18"
+			rewards: [
+				{
+					id: "166910739B51C0F9"
+					type: "random"
+				}
+				{
+					id: "6724FE14F1AF7CB1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "No estoy escribiendo la línea de Toy Story"
+			tasks: [
+				{
+					id: "745C92ED1392EE1A"
+					item: "aeinfinitybooster:infinity_card"
+					type: "item"
+				}
+				{
+					id: "4EDA481E8668C82B"
+					item: "aeinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
+			title: "AEInfinityBooster"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5BB887411B8B38FA"]
+			description: [
+				"Cuando se utiliza un componente de almacenamiento de 64k o superior, el condensador de materia puede condensarse significativamente más para producir una &bSingularidad&f.  Una única singularidad requiere que se anulen 256.000 elementos.  ¡Eso es exactamente &o4000 pilas&r!"
+				""
+				"Mira lo que sucede cuando arrojas esta singularidad al suelo con un trozo de polvo más.  Tendrás que causar algunos daños a los alrededores mientras lo haces, pero afortunadamente AE2 ofrece su propio &bTiny TNT&f para minimizarlo."
+			]
+			icon: "ae2:singularity"
+			id: "3E3DF8E967D95DB0"
+			rewards: [
+				{
+					id: "545E8CF0C43F9B5B"
+					type: "random"
+				}
+				{
+					id: "6C2DAC14419B90E4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "No del todo antimateria"
+			tasks: [
+				{
+					id: "3458474D44BD443F"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					id: "523A126499263FE0"
+					item: "ae2:ender_dust"
+					type: "item"
+				}
+				{
+					id: "3A45E1C2AE35002B"
+					item: "ae2:tiny_tnt"
+					type: "item"
+				}
+			]
+			title: "Materia hipercondensada"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["371A382CF1DDF2B2"]
+			description: ["La &bFuzzy Card&f permite que un elemento filtrado coincida independientemente de cualquier metadato (NBT), como daños o encantamientos, mientras que la &bInverter Card&f alterna el filtro en dichos buses de ser una lista blanca a una lista negra."]
+			id: "6E15447FC3D678E0"
+			rewards: [
+				{
+					id: "6FF117C99E79959D"
+					type: "random"
+				}
+				{
+					id: "27958B72A4A4CD9E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "Las dos tarjetas IO restantes"
+			tasks: [
+				{
+					id: "79E894E41241B6A2"
+					item: "ae2:fuzzy_card"
+					type: "item"
+				}
+				{
+					id: "6AAE42DF0347D1F4"
+					item: "ae2:inverter_card"
+					type: "item"
+				}
+			]
+			title: "Hablando libremente"
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E3DF8E967D95DB0"]
+			description: [
+				"Si hiciste esa última misión correctamente, deberías haber convertido esa singularidad en un par de &bSingularidades cuánticas entrelazadas&f.  Estas nuevas singularidades se utilizan para unir un dispositivo en forma de anillo conocido como &eQuantum Network Bridge&f."
+				""
+				"Cuando dos de estos anillos individuales se han vinculado utilizando las Singularidades Cuánticas Enredadas y se han puesto en marcha con algo de potencia AE (por ejemplo, una celda de energía), una red ME se puede expandir de forma inalámbrica al otro lado del puente, a través de largas distancias o incluso dimensiones."
+			]
+			id: "0B218DD73FE8D985"
+			rewards: [
+				{
+					id: "202B598DA89EB6EA"
+					type: "random"
+				}
+				{
+					id: "25C4692C8D47D950"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 16L
+					id: "7D869E1310E92BED"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "20AA67ECEA653B99"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6590872EF147B7DF"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+				}
+			]
+			title: "Puente de red cuántica"
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C22E3103544B120"]
+			description: [
+				"En Applied Energistics 2, cada red ME tiene una cierta cantidad de canales disponibles, lo que simplemente significa cuántos dispositivos en red pueden caber en toda la red."
+				""
+				"Como regla general, cualquier dispositivo que más o menos maneje datos ME directamente (elementos almacenados dentro de la red) y realice alguna forma de E/S ocupará un canal.  Por lo general, los componentes que solo se ocupan del almacenamiento interno de energía de la red, como &eEnergy Cells&f y &eInscribers&f, no ocupan canales."
+				""
+				"Las redes sin un &bME Controller&f se conocen como redes \"ad-hoc\" y solo admiten un máximo de 8 canales."
+			]
+			id: "78311531069807DE"
+			rewards: [{
+				id: "0608B89F87FECB34"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7E0D9E6342295AB0"
+				type: "checkmark"
+			}]
+			title: "Prólogo sobre canales"
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	title: "Applied Energistics 2"
+}

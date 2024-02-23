@@ -1,0 +1,1935 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "7F99CEFA76FAC940"
+	icon: "minecraft:chest"
+	id: "1DB294A8F8686321"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "minecraft:textures/item/chest_minecart.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -20.0d
+		y: -1.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5E4BC0F59C90433A"]
+			description: ["*Nota: Para actualizar un cofre de vainilla ya colocado a un cofre sofisticado de hierro, primero deberás convertir el cofre con una \"Mejora de nivel básico\"."]
+			id: "58514FDE153FD971"
+			rewards: [
+				{
+					id: "632C34D1F4CE965A"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "330E21D23165B829"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "Un solo cofre del tamaño de 2."
+			tasks: [{
+				id: "77A9435B6739348E"
+				item: "expandedstorage:old_iron_chest"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["58514FDE153FD971"]
+			id: "3E33730DC2115D26"
+			rewards: [
+				{
+					id: "2B0E611FC8E7C52F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B0B6F06B83B6A93"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "Mucho más espacio para actividades."
+			tasks: [{
+				id: "0427B441A750316F"
+				item: "expandedstorage:old_gold_chest"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E33730DC2115D26"]
+			id: "4C0BDD483CCB40C4"
+			rewards: [
+				{
+					id: "09194C282964BF5A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0415C90C635B77D4"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "Mucho y más espacio para actividades."
+			tasks: [{
+				id: "00ED02255105A973"
+				item: "expandedstorage:old_diamond_chest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C0BDD483CCB40C4"]
+			description: ["Even MORE slots for storage and upgrades."]
+			id: "77F241BEE9902751"
+			rewards: [
+				{
+					id: "3E846FD78C055A89"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "33035D9E5D284A72"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "So much room for activities!"
+			tasks: [{
+				id: "34B6EB0B801E4743"
+				item: "expandedstorage:old_obsidian_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["563CFA1EF74E52E9"]
+			description: ["¡Igual que un cofre de vanilla, pero tiene una ranura para una mejora de almacenamiento!"]
+			id: "5E4BC0F59C90433A"
+			rewards: [
+				{
+					id: "67C504323225DDD8"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "5926ED11CED5896C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.35d
+			subtitle: "El cofre inicial."
+			tasks: [{
+				id: "5241AA0EF3C2EA94"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "\"Vanilla\" Chest"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0682DC1F2417DAEB"]
+			description: ["Crea tú mismo un cajón de 1x1. Este artículo contiene una tonelada de stacks de 1 artículo."]
+			icon: "functionalstorage:oak_1"
+			id: "2746575C929B6C50"
+			rewards: [
+				{
+					id: "3F6E823825D51DAC"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+				{
+					id: "57814182F5AA0BAB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Stacks Sobre Stacks"
+			tasks: [{
+				id: "79EC3CF180A5A940"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Cualquier Drawer"
+				type: "item"
+			}]
+			title: "Mi Primer Drawer"
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			dependency_requirement: "one_started"
+			description: [
+				"Este elemento puede convertir elementos colocados en su interior en sus formas de pepita o bloque."
+				""
+				"Por ejemplo: un lingote de hierro colocado aquí te permitirá sacar 9 pepitas, o si se coloca más hierro, lo convertirá en bloques de hierro."
+			]
+			id: "2B422B7E0CE3590D"
+			rewards: [
+				{
+					id: "20DD94A587AC244E"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "7438B1DD5423F325"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Conversión automática a bloques."
+			tasks: [{
+				id: "4AC0DA5197DEBC7B"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			dependency_requirement: "one_started"
+			description: [
+				"Cuando se coloca y se conecta con la &aHerramienta de vinculación&r a otros cajones, este bloque actúa como un \"Hub\"."
+				""
+				"Si hace doble clic derecho aquí, todos los elementos dentro de los cajones de almacenamiento \"Red\" se extraerán de su inventario."
+			]
+			id: "6FBAE89EE782DABA"
+			rewards: [
+				{
+					count: 2
+					id: "0817D478F3584AB6"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "577872850DA154AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "64F4676E4C59322D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "El cerebro de los drawers."
+			tasks: [{
+				id: "1872E00684ADC839"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5A94A2664BFDD7B9"]
+			description: [
+				"Cofres que funcionan en todas las dimensiones."
+				""
+				"¡Se puede codificar por colores por seguridad! (Haga clic derecho en el bloque con el tinte deseado)."
+				""
+				"*Nota: Si alguien más usa su combinación de colores, ¡puede obtener el contenido! por lo que es importante colocarle un diamante para volverlo un ender chest personal"
+			]
+			hide: true
+			id: "3247179F0F0252A2"
+			rewards: [
+				{
+					id: "28FA25B2F1E211A3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0116B19B3CFFB4DD"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "476A95F3F84FAB97"
+					item: "enderstorage:ender_chest"
+					type: "item"
+				}
+				{
+					id: "16AB8A6AC73760E3"
+					item: "enderstorage:ender_tank"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E5DB7E53717FD3C"
+					item: {
+						Count: 1b
+						id: "enderchests:ender_chest"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "322CF20C9C5FB841"
+					item: {
+						Count: 1b
+						id: "endertanks:ender_tank"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ender Storage"
+			x: -15.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"¡Bienvenido al capítulo de almacenamiento básico!"
+				""
+				"¡Encontrará todas las formas básicas de almacenar artículos sin energía, así como artículos útiles para sus necesidades de almacenamiento!"
+			]
+			hide_dependency_lines: false
+			id: "5A94A2664BFDD7B9"
+			rewards: [{
+				id: "570FFAC4E65BBF46"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3E7F26D68D9A166B"
+				title: "Storage"
+				type: "checkmark"
+			}]
+			title: "Almacenamiento básico"
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			description: [
+				"Usando una &aLinking Tool&r, puedes vincular 2 Drawers Ender para sincronizar el contenido."
+				""
+				"Esto funciona igual que un cofre Ender, pero para Drawers."
+				""
+				"Para vincular, haga clic derecho en el primer Ender drawer con la &aherramienta de enlace&r, luego haga clic izquierdo en el segundo Ender drawer para sincronizar."
+			]
+			id: "1A4B1CA7EC15348E"
+			rewards: [
+				{
+					id: "0EEC38A1667399E0"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "6F4D2071EA7C3055"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "17243362CFFD8E23"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Drawer dimensional... por así decirlo."
+			tasks: [{
+				id: "38E95D826B04DC4F"
+				item: "functionalstorage:ender_drawer"
+				type: "item"
+			}]
+			title: "Ender Drawers!"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5A94A2664BFDD7B9"]
+			description: [
+				"Functional Storage es un mod para almacenar stacks de los mismos elementos."
+				""
+				"Esto es útil para elementos como adoquines, tierra, etc."
+			]
+			hide: true
+			icon: "functionalstorage:storage_controller"
+			id: "0682DC1F2417DAEB"
+			rewards: [{
+				id: "6E8586BE04F26897"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Drawers de almacenamiento Pariente lejano"
+			tasks: [{
+				id: "4B299AC7F0233132"
+				title: "Storage Drawers"
+				type: "checkmark"
+			}]
+			title: "Functional Storage"
+			x: -11.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5A94A2664BFDD7B9"]
+			description: [
+				"¡Los cofres sofisticados te permiten mejorar tus cofres con metales para aumentar el almacenamiento! También puede agregar filtros de actualización para aumentar la funcionalidad del cofre."
+				""
+				"¡No más habitaciones vainilla con dos cómodas!"
+			]
+			hide: true
+			icon: "expandedstorage:iron_chest"
+			id: "563CFA1EF74E52E9"
+			rewards: [{
+				id: "58CC2C987D56D7F8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "¡Cofres actualizables!"
+			tasks: [{
+				id: "034F49638F207523"
+				title: "Iron Chests"
+				type: "checkmark"
+			}]
+			title: "Sophisticated Storage"
+			x: -11.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A94A2664BFDD7B9"]
+			description: ["Sophisticated Backpacks ¡Ofrece mochilas actualizables que también pueden usar filtros para agregar funciones ingeniosas!"]
+			hide: true
+			id: "6A2B2C5E2ADCE366"
+			rewards: [{
+				id: "1B303584800CE582"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Sophisticated Backpacks"
+			tasks: [{
+				id: "213B187A9625C1C7"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -11.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A2B2C5E2ADCE366"]
+			id: "0E057B7F76401421"
+			rewards: [
+				{
+					count: 4
+					id: "5AE4783A5679A0EC"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "228B88E9317CB137"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "5525286901EED45A"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "La primera actualización"
+			tasks: [{
+				id: "256F1CCC79CEB2D5"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A2B2C5E2ADCE366"]
+			description: ["Los necesitará para realizar actualizaciones de mochila."]
+			id: "1FE052F643401232"
+			rewards: [
+				{
+					count: 2
+					id: "5B9CB28C6BC4759D"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "4B2F25D7E70DD87F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "La base para actualizaciónes de mochila"
+			tasks: [{
+				id: "6DDC631193C9A496"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0E0CAA31480EC0A1"
+			optional: true
+			rewards: [{
+				id: "7ADBF209091E5821"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			subtitle: "Permite que la mochila recoja artículos."
+			tasks: [{
+				id: "0789D160EF625FF5"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0E0CAA31480EC0A1"]
+			hide: true
+			id: "1985CFD1F0425E88"
+			optional: true
+			rewards: [{
+				id: "648AD42B15591F72"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Más opciones de filtrado"
+			tasks: [{
+				id: "666C188829301BE0"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "156FF8B7B724DC38"
+			optional: true
+			rewards: [{
+				id: "39BE377911DC6C3A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Agrega un filtro para los artículos que se bombean dentro o fuera de la mochila."
+			tasks: [{
+				id: "4DFC097C1EF485B3"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["156FF8B7B724DC38"]
+			hide: true
+			id: "57CF8C6C867B9BDA"
+			optional: true
+			rewards: [{
+				id: "3522A1F2B552FF21"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6530A152D9337A4C"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "110D27EA86CDA62B"
+			optional: true
+			rewards: [{
+				id: "3DAE7B9BA91F8520"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Imanta artículos en la mochila."
+			tasks: [{
+				id: "696764AB781624BD"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["110D27EA86CDA62B"]
+			hide: true
+			id: "11D57C768032E3F7"
+			optional: true
+			rewards: [{
+				id: "2B3FB31DDDCD1F45"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "14A8CEB60805E90A"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5FA9BC0D8476D322"
+			optional: true
+			rewards: [{
+				id: "3AAACB23C7CE64C0"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Autoalimentación con comida en la mochila."
+			tasks: [{
+				id: "5D185C4E74A8717D"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FA9BC0D8476D322"]
+			hide: true
+			id: "1A739D36D5E3B1AD"
+			optional: true
+			rewards: [{
+				id: "0B71DCC81A95305B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "41C87FC409006F13"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1CD2C6AFD788C35E"
+			optional: true
+			rewards: [{
+				id: "4B5E3828A7FEE102"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Compacta los artículos en la mochila según su receta de 2x2. "
+			tasks: [{
+				id: "0F54AF81A481180B"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1CD2C6AFD788C35E"]
+			hide: true
+			id: "5E4FE420B6D2C97F"
+			optional: true
+			rewards: [{
+				id: "18BDC6FD268F1347"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Compacta los artículos en la mochila según su receta de 3x3. "
+			tasks: [{
+				id: "7CA41563003856B2"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7EFBFF5D0DA018E7"
+			optional: true
+			rewards: [{
+				id: "6A1B0E04AAE2BFF2"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Agrega un filtro para los elementos que desea eliminar automáticamente en la mochila."
+			tasks: [{
+				id: "04491E89A571B16F"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7EFBFF5D0DA018E7"]
+			hide: true
+			id: "2FC15D3916DBF4E4"
+			optional: true
+			rewards: [{
+				id: "5989427C93E9266D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3A29FF1C2AD59B06"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			description: ["Agrega un filtro que le permite indicarle a la mochila qué artículos debe mantener abastecidos. Mayús + clic derecho en un inventario lo rellenará."]
+			hide: true
+			hide_dependency_lines: true
+			id: "4B62AF0405F68041"
+			optional: true
+			rewards: [{
+				id: "4C3EB57AC444EC11"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Stocking Up"
+			tasks: [{
+				id: "2F5D0ABEF5F4EDEF"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4B62AF0405F68041"]
+			hide: true
+			id: "019CA0E35F888222"
+			optional: true
+			rewards: [{
+				id: "4F4574E228792C80"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "45492321B5D5A2D6"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			description: ["Shift-Clic derecho en un inventario para vaciarlo."]
+			hide: true
+			hide_dependency_lines: true
+			id: "00DB5495C3A44999"
+			optional: true
+			rewards: [{
+				id: "573C3AE6F966E820"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Permite vaciar la mochila."
+			tasks: [{
+				id: "68CED4583435FE43"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00DB5495C3A44999"]
+			hide: true
+			id: "4C0EAB9F795686D0"
+			optional: true
+			rewards: [{
+				id: "27CA65D1E2EEDA8A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3D7F2E1489EB84AA"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "33882172DA8021F6"
+			optional: true
+			rewards: [{
+				id: "773BA104B1822DAF"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Mantiene el inventario del jugador apilado a partir de elementos en la mochila."
+			tasks: [{
+				id: "5F6536142CDA403C"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			description: [
+				"Así que obtuvimos una actualización de mochila para poner tu mochila en tu mochila."
+				""
+				"Para que puedas tener tu mochila en tu mochila cuando necesites tu mochila en tu mochila."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "7C07D6A33F7ADB02"
+			optional: true
+			rewards: [{
+				id: "251C508792472ABB"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Escuché que te gustan las mochilas en tus mochilas."
+			tasks: [{
+				id: "4F04DC4226148B47"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "037415D5B965E214"
+			optional: true
+			rewards: [{
+				id: "16FFA5DD686C0084"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "La mochila no puede desaparecer."
+			tasks: [{
+				id: "50348CD6A080A1D1"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "668C313FF46B6005"
+			optional: true
+			rewards: [{
+				id: "621E7721DC1187BF"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Agrega una pestaña de fundición a la mochila"
+			tasks: [{
+				id: "10C7C3214FFC012D"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["668C313FF46B6005"]
+			hide: true
+			id: "3A1D07AED2A841E4"
+			optional: true
+			rewards: [{
+				id: "278BE67D7B2DA41A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Artículos fundidos automáticamente en la mochila."
+			tasks: [{
+				id: "4F90A434D3719DCB"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "26A9F402DAE15EA2"
+			optional: true
+			rewards: [{
+				id: "0F7536B588E4582A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Agrega una GUI para fumadores a la mochila."
+			tasks: [{
+				id: "1ABC352A4A4313E5"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["26A9F402DAE15EA2"]
+			hide: true
+			id: "36BCE35215B2B6E9"
+			optional: true
+			rewards: [{
+				id: "3DA8FC30D52E42AE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4D0ACCBF77CC0846"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1E499F94A2A193E1"
+			optional: true
+			rewards: [{
+				id: "003DF784F0E1EDE6"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Agrega una GUI explosiva a la mochila."
+			tasks: [{
+				id: "677DA84F4B304778"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1E499F94A2A193E1"]
+			hide: true
+			id: "26988E22BD019628"
+			optional: true
+			rewards: [{
+				id: "568084E6EBB1ABD0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "62BCE2BB281304DC"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4A854CD5EC70733E"
+			optional: true
+			rewards: [{
+				id: "76DEF2900448AD2B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Agrega una GUI de mesa de artesanía a la mochila."
+			tasks: [{
+				id: "47BADC501A4E2AD7"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "52672B7FFFD51D16"
+			optional: true
+			rewards: [{
+				id: "641D01DBE66A27DF"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Agrega una GUI de Stonecutting a la mochila."
+			tasks: [{
+				id: "3BA31C5CD5C35ED5"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7E9E03274A88347D"
+			optional: true
+			rewards: [
+				{
+					id: "442C444707D2AD35"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "7153DF647EE23793"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "Aumenta el tamaño de la pila en la mochila."
+			tasks: [{
+				id: "7E22C7FB2F953E70"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E9E03274A88347D"]
+			hide: false
+			id: "785951190FFDAA21"
+			optional: true
+			rewards: [
+				{
+					id: "246B4B8ABB20D8A7"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "667C0645CB59356D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "15A92DA8E1A9106F"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["785951190FFDAA21"]
+			hide: false
+			id: "0298A17C2AAC5765"
+			optional: true
+			rewards: [
+				{
+					id: "5C6FA0134C10A5D6"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "248041164657FF8C"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "161AF6650325FA0A"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0298A17C2AAC5765"]
+			hide: false
+			id: "7AE3C8134F5ED726"
+			optional: true
+			rewards: [
+				{
+					id: "2E76A37774F0CEC5"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "2BF97F31AE8AE8FB"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36BEE5EDBA6FAF76"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "53F861876B991C36"
+			optional: true
+			rewards: [{
+				id: "3285596442FF6447"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Ahora estamos improvisando"
+			tasks: [{
+				id: "18F8BF7CC5B3126D"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "615B9062FE8CCD36"
+			optional: true
+			rewards: [{
+				id: "54802B4F6EE4412E"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Cambie automáticamente a la herramienta que sea más efectiva para el bloque que está viendo."
+			tasks: [{
+				id: "24165D460DCC2212"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["615B9062FE8CCD36"]
+			hide: true
+			id: "15CD4BFDC56E9510"
+			optional: true
+			rewards: [{
+				id: "3198E65D369D203C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "700D630FE0FB8B9D"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0D4C64DD58567758"
+			optional: true
+			rewards: [{
+				id: "198BF862B3BF5ABA"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Agrega un tanque a la mochila."
+			tasks: [{
+				id: "6CA01A42CC183F87"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4C2A60FC1F1E0328"
+			optional: true
+			rewards: [{
+				id: "18E06C1A7BC76A3F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Agrega una batería a la mochila."
+			tasks: [{
+				id: "056ECFB6B80F6A37"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6E9041744C592573"
+			optional: true
+			rewards: [{
+				id: "2E57D243960C9A86"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Agrega la capacidad de bombear líquidos desde la actualización del tanque."
+			tasks: [{
+				id: "0B9FAD684B03985A"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E9041744C592573"]
+			hide: true
+			id: "56B80A7EBFE21428"
+			optional: true
+			rewards: [{
+				id: "23887038DAC8A6EB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5B7A8E1F725C2815"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56B80A7EBFE21428"]
+			hide: true
+			id: "6E3D53D1C4569A89"
+			optional: true
+			rewards: [{
+				id: "67BA8A35E56EB3F0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3B52B2670A826CE4"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E057B7F76401421"]
+			id: "2F9B0C642A6BE30C"
+			rewards: [
+				{
+					id: "588A8E368C4561A4"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "3895B4A009120165"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "158BE322A99DAC18"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7E9C8C24DD11EE7F"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F9B0C642A6BE30C"]
+			id: "45268A619787288F"
+			rewards: [
+				{
+					id: "1CD2A81868C15FC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2E794D147447A3E2"
+					item: "minecraft:diamond"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1821E984D977524B"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "040F32155AD31A4C"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["45268A619787288F"]
+			id: "67704F7341EDCC49"
+			optional: true
+			rewards: [
+				{
+					id: "06D60CD6970140F7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0E9C01BFE4BB86F2"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "7214DB9CCE3BF452"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "040F46810BB6C345"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "62B16ED18AAB714F"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2746575C929B6C50"]
+			description: [
+				"Se utiliza para vincular cajones a un controlador y para vincular Ender Drawers."
+				""
+				"Para vincular drawers al controlador, haga clic derecho en el bloque del controlador para iniciar la configuración. Al hacer clic derecho en drawers, se agregarán a la red."
+				""
+				"Sostener la herramienta le mostrará qué drawers están conectados al controlador."
+			]
+			id: "072FBEB0F6F1BC48"
+			rewards: [
+				{
+					id: "7524181E415A05BB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3625DED76F225AAE"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "62C6F14FE6A82305"
+				item: {
+					Count: 1b
+					id: "functionalstorage:linking_tool"
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2746575C929B6C50"]
+			id: "485D5664A17E16DF"
+			rewards: [
+				{
+					id: "389E00F11BC30473"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "367143472E975AC8"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "6217BA32207183D1"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "x8 Storage Upgrade"
+			tasks: [{
+				id: "2F64FAD1FD2D3BAA"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["485D5664A17E16DF"]
+			id: "3B570B3DB5F6D2CB"
+			rewards: [
+				{
+					id: "419CCB3888465495"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "2DD72079356465CE"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "3CEB38F19FD621C4"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "x16 Storage Upgrade"
+			tasks: [{
+				id: "25677521E16A9A63"
+				item: "functionalstorage:gold_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3B570B3DB5F6D2CB"]
+			id: "1B72E95569B07E18"
+			rewards: [
+				{
+					id: "7DDEB81C6D62844E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "349616860CC71998"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "66529711E25F3DB7"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "x24 Storage Upgrade"
+			tasks: [{
+				id: "5F8923D392E224BB"
+				item: "functionalstorage:diamond_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1B72E95569B07E18"]
+			id: "0E5AE195158CF344"
+			rewards: [
+				{
+					id: "36853439572CA76B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FC4E884680BC919"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "6D7ABAF9FA2AD2A9"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "x32 Storage Upgrade"
+			tasks: [{
+				id: "1E992354ECC75B6D"
+				item: "functionalstorage:netherite_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			description: [
+				"La herramienta de configuración se utiliza para bloquear los drawers y recordar el elemento que tienen dentro."
+				""
+				"Esto es útil siempre que configure un sistema para tirar y empujar desde drawers. ¡El drawer cerrado con llave no reemplazará el artículo que estaba cerrado con llave!"
+			]
+			id: "508A8366219175FE"
+			rewards: [
+				{
+					id: "2E141DF65F0D3931"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "6A90B5A53F3FC368"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2F275302DA90D4E4"
+				item: {
+					Count: 1b
+					id: "functionalstorage:configuration_tool"
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5A94A2664BFDD7B9"]
+			description: [
+				"¿Quiere crear almacenamiento virtual utilizando &9Refined Storage&r o &9Applied Energistics 2&r?"
+				""
+				"Ambas son excelentes formas de actualizar su almacenamiento, pero es importante hablar sobre los &eNBT Items&r y la mejor manera de almacenarlos."
+				""
+				"Los artículos NBT son artículos con etiquetas adicionales adjuntas. Objetos encantados, objetos con durabilidad, gemas de apoteosis... todos estos son objetos con etiquetas NBT adheridas. Debido a esto, no suelen"
+				""
+				"Cuando almacena muchos de estos en un sistema de almacenamiento como RS o AE2, corre el riesgo de crear problemas para su guardado o servidor."
+				""
+				"¡Por eso es mejor guardarlos en cofres o bolsas!"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "7EF57BBEAA4B6B08"
+			min_width: 300
+			rewards: [
+				{
+					id: "709280A79BC54D7E"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "495C45D51AEDF931"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4F1C07541B66F171"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21FBC4E0F668347C"
+				title: "NBT and YOU!"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C0BDD483CCB40C4"]
+			description: ["Even MORE slots for storage and upgrades."]
+			id: "1EAB372CE9CC0D1B"
+			rewards: [
+				{
+					id: "2B1B691F7D2CF6D0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "623B4ADD85AB3CFB"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "¡Tanto espacio para actividades!"
+			tasks: [{
+				id: "46949D99B22E0E1C"
+				item: "expandedstorage:old_netherite_chest"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["563CFA1EF74E52E9"]
+			id: "5318CBE1755A50C4"
+			rewards: [
+				{
+					id: "316B889136837706"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "70CF881855D46E79"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "73351CA4204328F1"
+					item: "minecraft:barrel"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "6665701E2299533F"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			title: "Almacen alternativo"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5318CBE1755A50C4"]
+			icon: "expandedstorage:copper_barrel"
+			id: "654307C39AF6624D"
+			rewards: [
+				{
+					id: "5821BDB99DC76C8C"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "7CBAAA5E3D4A8E5B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E586D655CEF3473"
+					item: "minecraft:copper_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E62574DB1E62583"
+					item: "expandedstorage:copper_barrel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "240A483D5F3171A0"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "Barril de cobre"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["654307C39AF6624D"]
+			icon: "expandedstorage:iron_barrel"
+			id: "53C21B8A2F6CDB11"
+			rewards: [
+				{
+					id: "31F9AE6F9CC6C7DA"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "5B4336F2B73FA0F5"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3B97708157116841"
+					item: "minecraft:iron_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "27D894ED26943C52"
+					item: "expandedstorage:iron_barrel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6FDAC307B408F2ED"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3088689281BAB733"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			title: "Barril de hierro"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53C21B8A2F6CDB11"]
+			icon: "expandedstorage:gold_barrel"
+			id: "091B94BA0C594E66"
+			rewards: [
+				{
+					id: "7A483E47DF268BD4"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "2C306B42A73E48FB"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "36FDAE568419CEF5"
+					item: "minecraft:gold_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "771A3F300A0EB840"
+					item: "expandedstorage:gold_barrel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3AD0759754A75B6C"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Barril de oro"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["091B94BA0C594E66"]
+			icon: "expandedstorage:diamond_barrel"
+			id: "1261146829040ADA"
+			rewards: [
+				{
+					id: "73730BB563F38CF5"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "13A714C3A7F45730"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "483F23788EFDB407"
+					item: "minecraft:diamond"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A20E0F77D6A8E0A"
+					item: "expandedstorage:diamond_barrel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0182986E355CECEE"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2B103A814000B5C2"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "Barril de diamante"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68C9E96251E36FF9"]
+			icon: "expandedstorage:netherite_barrel"
+			id: "02BCBE78DD255E49"
+			rewards: [
+				{
+					id: "01B9498F11B10A8B"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "40138FAF37D9A936"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "67FDD5C65C864E73"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "19EC6139B4B8BCEA"
+					item: "expandedstorage:netherite_barrel"
+					type: "item"
+				}
+				{
+					id: "1936744AC96C15CB"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			title: "Barril de netherita"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1261146829040ADA"]
+			icon: "expandedstorage:obsidian_barrel"
+			id: "68C9E96251E36FF9"
+			rewards: [
+				{
+					id: "4B1D06AC1B81B29B"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "0DD1C615AD4147AC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3FC88E3C6A470A1E"
+					item: "minecraft:obsidian"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0E44359F11186B50"
+					item: "expandedstorage:obsidian_barrel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0C10FF3878988E82"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			title: "Barril de obsidiana"
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+	title: "Almacenamiento básico"
+}

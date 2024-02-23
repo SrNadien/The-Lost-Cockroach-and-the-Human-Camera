@@ -1,0 +1,920 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_power"
+	group: "0CD49F3D041448A1"
+	icon: {
+		Count: 1b
+		id: "mekanism:creative_energy_cube"
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "18446744073709551615.9999"
+				}]
+			}
+		}
+	}
+	id: "0407AA3D8DB96ED1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7A14C0F9D566D0E5"]
+			description: [
+				"¡Este capítulo está dedicado a todo lo relacionado con el poder!"
+				""
+				"En esta sección, encontrará las formas básicas de generar, almacenar y transferir energía."
+			]
+			icon: "minecraft:redstone_torch"
+			id: "79DA4B75F18D88A2"
+			rewards: [{
+				id: "77699D5C193D63F0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0B5E442D682C3EEA"
+				title: "¡Todo lo relacionado con la energia!"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5E41363F9AE243F3"]
+			description: [
+				"El mod &9Bigger Reactors&r ofrece reactores multibloque que son completamente personalizables en tamaño, eficiencia y más."
+				""
+				"Para obtener más información sobre cómo empezar con Bigger Reactors, ¡ahora tiene su propia línea de misiones!"
+			]
+			hide_dependency_lines: false
+			icon: "mekanismgenerators:fission_reactor_port"
+			id: "04DC9BCEB2E507B8"
+			rewards: [{
+				id: "3E5B567BF18D2095"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "¡Reactores personalizables!"
+			tasks: [{
+				id: "70CC25EA15DBE615"
+				title: "Reactores más grandes"
+				type: "checkmark"
+			}]
+			title: "Reactores más grandes"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Mekanism Proporciona varias formas de generar energía utilizando recursos renovables."
+				""
+				"Los &9generadores solares&r aprovechan la energía del sol para satisfacer las necesidades energéticas básicas. No funciona durante la noche y debe tener acceso al cielo. El vidrio está bien."
+				""
+				"El &9Wind Generator&r proporciona energía a través del viento. A menos que hayas descubierto una manera para que tu personaje haga girar esto manualmente, la velocidad a la que gira se basa en el nivel Y en el que se encuentra. También necesita"
+			]
+			hide_dependency_lines: false
+			id: "2271CDE870E1F5AD"
+			rewards: [{
+				id: "734CA8F38D530BFF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "Usando el sol"
+			tasks: [{
+				id: "59DE118DD6597A4E"
+				item: "solarpanels:advanced_solar_panel"
+				title: "Generaciones de energías renovables"
+				type: "item"
+			}]
+			title: "Mekanism: Energía renovable"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&aMekanism&r Heat Generator es una versión diferente de la producción de energía básica. Tiene dos modos de crear poder:"
+				""
+				"&9Pasivo:&r Rodear el generador con una fuente de lava o bloques que fluyen crea energía pasiva con el tiempo a través del calor. Coloque un bloque de fuente de lava encima y déjelo fluir por los lados. Asegúrese de tener tuberías colocadas en frente para sacar su energía"
+				""
+				"&9Activo:&r Colocar materiales combustibles como carbón o madera en el generador quemará el combustible para generar energía. Esto no es muy eficiente."
+			]
+			id: "7FA83D1F794B304F"
+			rewards: [
+				{
+					id: "4C1087EB9F9F68B9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C4527E368FC896E"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Mekanism Solución de energía de arranque"
+			tasks: [{
+				id: "6C8199D3AFD2368D"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"El generador de carbón RFTools es uno de los generadores de carbón más fáciles de fabricar."
+				""
+				"Es muy simple de usar y crea una cantidad decente de energía según el material combustible que ingresa. También distribuye energía automáticamente a los bloques adyacentes."
+			]
+			id: "4AEF05325BF9112B"
+			rewards: [
+				{
+					id: "55C7616D5FAC1C13"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D172A6A2CA90F91"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7245C019DB8AAAFE"
+				item: "industrialforegoing:biofuel_generator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"¿Buscas opciones de energía al principio del juego? Estas son buenas maneras de comenzar a generar energía."
+				""
+				"¡Estos no producen una gran cantidad de energía, pero generalmente son fáciles o baratos de conseguir al principio del juego!"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:coal"
+			id: "536260F6FBD9890A"
+			rewards: [{
+				id: "4126997592D61F03"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Potencia de arranque"
+			tasks: [{
+				id: "17CAC3B0F388CA3A"
+				title: "Quemar combustible para obtener energía"
+				type: "checkmark"
+			}]
+			title: "Opciones de energía al principio del juego"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Estas son tuberías simples que se pueden actualizar con Actualizaciones de tuberías."
+				""
+				"Para \"extraer\" energía de un bloque, coloque el tubo al lado del bloque y, en el lado que está conectado, presione Mayús + clic derecho con la llave para tubos para configurar el tubo a extraer."
+				""
+				"¡El mod &9Pipez&r también ofrece formas de transportar artículos, gases y líquidos! O puede hacer una tubería todo en uno llamada &aUniversal Pipe&r. "
+			]
+			id: "2FD83213E1EF342E"
+			rewards: [
+				{
+					id: "2F96475509170DF7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "08460933939CF881"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1F9C7F7397ADE433"
+					item: "enderio:energy_conduit"
+					type: "item"
+				}
+				{
+					id: "484844AEBE204A6A"
+					item: "enderio:yeta_wrench"
+					type: "item"
+				}
+			]
+			title: "&9Usa Pipez: &aTubería de energía"
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Mekanism ofrece un cable atractivo para transferir su energía."
+				""
+				"Si la máquina a la que se está conectando ya extrae o empuja energía, no necesitará configurar el cable. De lo contrario, necesitará un &9Configurador&r para configurar la tubería. Mayús+clic derecho"
+			]
+			id: "273054BED5ED8831"
+			rewards: [
+				{
+					id: "189C305E050244F6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "46E642A34AD07DB6"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Tubería de transferencia de energía del Mekanism"
+			tasks: [{
+				id: "6C4B8A2662030CB0"
+				item: "mekanism:basic_universal_cable"
+				title: "Cables Universales"
+				type: "item"
+			}]
+			title: "&9Uso del mecanismo:&a y un cable universal básico"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Si está buscando diferentes formas de obtener energía de sus máquinas, ¡aquí es donde puede encontrarla!"
+				""
+				"Hay varias opciones, tanto &awired&r como &9wireless&r, para transferir energía."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "mekanism:energy_tablet"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "1000000"
+						}]
+					}
+				}
+			}
+			id: "659C7F5573F3B16E"
+			rewards: [{
+				id: "49B30E2AD31498EC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3BF8161DA916C507"
+				title: "Transferring Power"
+				type: "checkmark"
+			}]
+			title: "Tranferencia De energia"
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Con un poco de trabajo en Mekanism, esta máquina le permite transferir cualquier cosa de forma inalámbrica. "
+				""
+				"Puede configurar canales específicos para transferir elementos individuales, energía o incluso gases desde Mekanism. Es genial."
+			]
+			id: "31B795EA72F059D4"
+			rewards: [
+				{
+					id: "0B441002C84F88A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2960A7A9FFFE9624"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "También funciona para artículos, gases, líquidos y calor."
+			tasks: [{
+				id: "1972C90EE0D1E91E"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			title: "&9Transferencia inalámbrica: &6Tanto como Entangloporter"
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			description: ["¡Esta sección le muestra diferentes formas de almacenar su energía!"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "mekanism:ultimate_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "256000000"
+						}]
+					}
+				}
+			}
+			id: "722921B2DFC36E67"
+			rewards: [
+				{
+					id: "4677479C5DC670D3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "379A17F0BD070EF8"
+					table_id: 7197061527498167330L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "26D74A36DE114A76"
+				title: "Almacenamiento de energía"
+				type: "checkmark"
+			}]
+			title: "Storing Power"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"El Mekanism es una de las mejores modificaciones para el almacenamiento de energía, especialmente al principio del juego."
+				""
+				"El Basic Energy Cube es fácil de configurar, fácil de fabricar y almacena mucha energía. ¡También se puede actualizar y cargar elementos dentro de la interfaz!"
+				""
+				"Para obtener más información sobre cómo actualizar el Energy Cube del mod, ¡dirígete a la línea de misiones de &aMekanism&r!"
+			]
+			id: "67B97B34A65464B3"
+			rewards: [
+				{
+					id: "44DBDB52865412A6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E2E1F9ED0EEB289"
+					item: "mekanism:steel_casing"
+					type: "item"
+				}
+				{
+					id: "6F7ED193F8C1262A"
+					table_id: 8364958827326577211L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Mekanism"
+			tasks: [{
+				id: "76378687551A79C3"
+				item: "mekanism:basic_energy_cube"
+				title: "Cubo de Energia"
+				type: "item"
+			}]
+			title: "Cubos de energía de mekanism"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"RFToolsPower has &9Powercells&r to store power, which are multi-block storage units that can be customized and upgraded to store power."
+				""
+				"You will need a wrench to determine inputs and outputs for power."
+			]
+			id: "2843AB3EB994E273"
+			rewards: [
+				{
+					id: "27BD21872A0684D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D7BF04203FE0E60"
+					table_id: 8364958827326577211L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "RFTools"
+			tasks: [{
+				id: "7CA8741CA073C1DA"
+				item: "solarpanels:improved_energy_tablet"
+				title: "Powercells"
+				type: "item"
+			}]
+			title: "Celdas de energia de RFTools"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"¡No puedes alimentar tu base con carbón para siempre! Si tienes una cantidad decente de recursos disponibles, ¡es hora de actualizar tu configuración de energía!"
+				""
+				"Estas opciones generalmente requieren un poco de configuración, pero producen suficiente energía para avanzar en tu juego."
+			]
+			icon: "mekanismgenerators:advanced_solar_generator"
+			id: "5E41363F9AE243F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "617DE7543DA07D46"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A8F474927CC1E80"
+				title: "Opciones de energía a mitad del juego"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E41363F9AE243F3"]
+			description: [
+				"Si alguna vez has oído hablar de alguien hablando de \"Melon Power\", esto es todo. El &9generador de combustión de gas&r de Mekanism puede producir una buena cantidad de energía bombeando &9etileno&r elaborado con rodajas de melón."
+				""
+				"Para producir &dEtileno&r, comience triturando materiales orgánicos en un &eCrusher&r para crear &6Bio Fuel&r. ¡Las rodajas de melón se utilizan normalmente para esto! Luego se bombea a una cámara de reacción presurizada."
+				""
+				"La República Popular China necesita agua, biocombustible y algo de hidrógeno para crear etileno. Puede obtener hidrógeno separando agua en un &9separador electrolítico&r. "
+				""
+				"Una vez que hayas comenzado a producir etileno, bombéalo al generador de gas para comenzar a generar energía."
+			]
+			id: "0AEC181F5E21A299"
+			min_width: 300
+			rewards: [
+				{
+					count: 8
+					id: "7B9C300DF6442A1D"
+					item: "minecraft:melon_slice"
+					type: "item"
+				}
+				{
+					id: "742C6774E1F40C96"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "542C81754D93237B"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "El poder del melón"
+			tasks: [
+				{
+					id: "2ADE2B487637FA3F"
+					item: "mekanismgenerators:gas_burning_generator"
+					type: "item"
+				}
+				{
+					id: "5C1F3A52B007EDB9"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+				{
+					id: "41DDBC04B42A604E"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+				{
+					id: "59CC349D61EE0729"
+					item: "mekanism:electrolytic_separator"
+					type: "item"
+				}
+			]
+			title: "&eMekanism's&r &dGenerador de combustión de gas&r"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Si buscas generar una gran cantidad de energía, puedes comenzar ampliando algunas de las opciones de la sección &9Mid Game Power&r. Haga sus &eBigger Reactors&r más grandes. Actualice su &9Thermo Gens&r a Nitro, etc. "
+				""
+				"&9Mekanism&r también tiene una opción de poder de final de juego que es difícil de superar."
+				""
+				"El &5Fusion Reactor&r, cuando se combina con una turbina, puede producir fácilmente más de 30 millones de RF/tick. ¡Habrá una línea de misiones para construir esto en el futuro!"
+			]
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			id: "3BDB94F17765EE77"
+			rewards: [{
+				id: "45BE4BD6F9CCB927"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Más potencia de la que necesitarás"
+			tasks: [{
+				id: "03A4FFC4CFCA5DB7"
+				title: "Opciones de energía para finalizar el juego"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Para que sus tuberías extraigan más energía, querrá actualizarlas."
+				""
+				"Una vez que haya presionado Mayús y hecho clic con el botón derecho en una tubería para configurarla para que se extraiga, puede insertar una actualización de tubería en ella haciendo clic derecho en la tubería con la actualización. También puedes hacer clic derecho con la mano vacía y agregarlo."
+				""
+				"Para poder configurar filtros, necesitará al menos una &9Actualización avanzada de tuberías&r. "
+			]
+			hide: true
+			id: "1409C17773B6A131"
+			rewards: [
+				{
+					id: "3B6AEDA1AF0D94C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62CFFE975A4D6072"
+					item: "enderio:basic_capacitor"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2C5A013A4D52E1A4"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "098F1B932F851616"
+				item: "enderio:redstone_filter_base"
+				title: "Actualizaciones de tuberías"
+				type: "item"
+			}]
+			title: "Actualizando nuestro Pipez"
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&9Mekanism's&r &aInduction Matrix&r es la mejor forma de almacenar energía."
+				""
+				"Matrix es una estructura de múltiples bloques construida con &9carcasas de inducción&r.  El marco debe construirse con carcasas, pero el interior de las paredes se puede construir con vidrio estructural, con 2 y 9 puertos de inducción para empujar y extraer energía dentro y fuera de Matrix."
+				""
+				"Dentro de la estructura, puede personalizar la cantidad de energía que se almacena mediante el uso de &9celdas de inducción&r y &9proveedores&r. Las celdas proporcionan más almacenamiento de energía, mientras que los proveedores permiten una mayor tasa de transferencia de energía."
+				""
+				"A continuación se muestra una imagen de la matriz de inducción más pequeña que puede crear, usando 1 celda y 1 proveedor. "
+				""
+			]
+			id: "682034C680FDEDC2"
+			min_width: 500
+			rewards: [
+				{
+					id: "2C2EAC98F5AEB481"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1868C3E6B922044A"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3B4CD42FD3351B53"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					id: "7A7908C570CAD54F"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6C93353348862894"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "44F0CD48A0BDB110"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+			]
+			title: "¿Necesita más almacenamiento?"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&9Flux Networks&r es un mod que pretende ser la solución a todas tus necesidades de energía inalámbrica."
+				""
+				"El mod en sí no tiene una forma de generar energía, pero puede almacenar y transmitir energía de forma inalámbrica, incluso a través de dimensiones. Incluso puede cargar tus artículos en tu inventario."
+				""
+				"Incluso puedes cargar tu jetpack mientras vuelas con este mod. ¿CUAN GENIAL ES ESO?"
+				""
+				"Para comenzar con el mod, necesitarás algo de Flux Dust. Dirígete al nivel del lecho de roca, luego arroja un poco de piedra roja sobre un bloque de lecho de roca. Coloque un bloque de obsidiana justo encima de la piedra roja flotante."
+			]
+			id: "35CC898E0E49FE58"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "16D31D3D55F77046"
+					item: "fluxnetworks:flux_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "19CFBA244CF82C53"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CB51B7DDAE608F1"
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "La solución de energía inalámbrica definitiva"
+			tasks: [{
+				count: 4L
+				id: "0F0CBAF912DE462F"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			title: "Flux Network"
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["35CC898E0E49FE58"]
+			description: ["En este mod, necesitarás &aFlux Cores&r y &aFlux Blocks&r para crear las partes centrales de tu red. ¡Haz algunos de cada uno!"]
+			hide: true
+			id: "1BE26A00A420DAE3"
+			rewards: [
+				{
+					count: 4
+					id: "4FA376B34C2BF04A"
+					item: "fluxnetworks:flux_dust"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3C2BBFC2A36E722F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5E760075B279BA71"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+				{
+					id: "01B3CDAA69D1FA2F"
+					item: "fluxnetworks:flux_block"
+					type: "item"
+				}
+			]
+			title: "Los materiales de elaboración \"básicos\""
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1BE26A00A420DAE3"]
+			description: [
+				"El primer elemento que necesitará para iniciar su red Flux es un &9Flux Plug&r. "
+				""
+				"El enchufe se utiliza para "
+				"extraer"
+				" energía del bloque al que está conectado. Aparte de un pequeño buffer, el enchufe no almacena energía por sí mismo, así que no te preocupes porque consumirá toda tu energía."
+				""
+				"Se sugiere colocar el enchufe en un bloque de almacenamiento de energía como un cubo de energía. Puede conectarse a cables, tuberías o la salida de cualquier máquina productora de energía."
+				""
+				"Para aprender cómo configurar tu primera red, ¡consulta la siguiente misión!"
+				"{image:kubejs:textures/quests/wireless_ui.png width:100 height:100 align:1}"
+				"{image:kubejs:textures/quests/flux_ui.png width:100 height:100 align:1}"
+			]
+			id: "5F078A574A783B02"
+			rewards: [
+				{
+					id: "46F6946231FB28A0"
+					item: "fluxnetworks:flux_block"
+					type: "item"
+				}
+				{
+					id: "615F6356856A3371"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "116BF6D4838A099B"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "00B1C30B3E10D332"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			title: "Iniciando su red"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5F078A574A783B02"]
+			description: [
+				"Haga clic derecho en su enchufe y verá la interfaz de usuario de Flux Network. En el extremo superior derecho, haga clic en el botón + para crear su primera red. Necesitará establecer una contraseña para crear la red., ¡Pero también puedes establecer un color!"
+				""
+				"Desde aquí, puede ir a la pestaña Selección de red para activar su red en el enchufe. Si el enchufe está conectado a una fuente de alimentación, ahora puede aprovechar esa energía en cualquier parte de su sistema utilizando un Flux "
+				""
+				"Pro Tip: ¡Puedes crear múltiples redes si deseas tener diferentes fuentes de energía alimentando diferentes partes de tus sistemas!"
+			]
+			icon: "fluxnetworks:flux_configurator"
+			id: "36DEA17CBB696CC7"
+			min_width: 300
+			rewards: [
+				{
+					count: 4
+					id: "2AC42E9338722803"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+				{
+					id: "739E3CA0422DB9F6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "¡Ahora eres administrador de red!"
+			tasks: [{
+				id: "2D0212699F99459F"
+				title: "Mi Primera Network"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["36DEA17CBB696CC7"]
+			description: [
+				"Con nuestro enchufe configurado, ahora podemos aprovechar la energía de nuestra red.  El &9Flux Point&r hace exactamente eso.  Dirige la energía de su red a cualquier bloque al que esté conectada, incluidas tuberías o cables, ¡o simplemente directamente a las máquinas!"
+				""
+				"Una vez que haya colocado su punto en la máquina o bloque que desea encender, haga clic derecho sobre él y seleccione su red en la pestaña Selección de red. Al igual que el enchufe, puedes ajustar la cantidad de energía que consume, el nivel de prioridad, etc."
+			]
+			id: "56B6ABF3D6EA0D84"
+			rewards: [
+				{
+					id: "34498E12E8224864"
+					item: "fluxnetworks:flux_core"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "175D04352F2F6D97"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36DA068B9758EC94"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "026DE584C4DF393C"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			title: "Acceso a la Network De energía"
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["36DEA17CBB696CC7"]
+			description: [
+				"Flux Networks ¡Proporciona una manera de almacenar la energía que generas para tu red!"
+				""
+				"¡Estos contienen enormes cantidades de energía en general y se pueden actualizar para almacenar aún más!"
+			]
+			id: "79AD74A863EA43CB"
+			rewards: [
+				{
+					id: "6A142D7F593E9DBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69236C65B496550C"
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Almacenamiento de energía"
+			tasks: [{
+				id: "3C574DDC057353DF"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["36DEA17CBB696CC7"]
+			description: [
+				"Al hacer clic derecho en un bloque funcional de Flux Network obtendrá esta interfaz de usuario."
+				""
+				"Cada enchufe o punto puede tener un nombre, un nivel de prioridad personalizado y un límite de transferencia de energía personalizado. Esto permite un control total sobre todas las partes de su sistema."
+				""
+				"&aPower Surge&r establece el punto o enchufe específico para ignorar las prioridades establecidas dentro del sistema."
+				"&aBypass Limit&r ignora el límite establecido."
+				""
+				"Hay varias otras pestañas que puedes consultar, ¡principalmente para obtener estadísticas de tu red!"
+				""
+			]
+			icon: "fluxnetworks:admin_configurator"
+			id: "2EB7784D5296F410"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "64751B6E2F284585"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3D721B55E8D33FE8"
+				title: "La interfaz de usuario de Flux Networks"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["36DEA17CBB696CC7"]
+			description: [
+				"Flux Networks también proporciona una forma de cargar sus artículos de forma inalámbrica, ¡incluso en todas las dimensiones!"
+				""
+				"Una vez que tenga un enchufe conectado a su sistema de energía, querrá crear el &9Flux Controller&r y colocarlo."
+				""
+				"Haga clic derecho para abrir la interfaz y vaya a la pestaña \"Carga inalámbrica\". Desde aquí, puede seleccionar cada sección de su inventario que desea mantener cargada. Para activar, asegúrese de presionar el interruptor en la parte inferior para habilitar la carga inalámbrica, luego haga clic en Aplicar."
+				""
+			]
+			id: "27A4FA38992448A0"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D553DA55A83294D"
+					type: "random"
+				}
+				{
+					id: "37E08FCD1F0A3D26"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "013BD44E5E82802A"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			title: "Carga inalambrica"
+			x: -9.0d
+			y: 7.5d
+		}
+	]
+	title: "Energía Básica"
+}

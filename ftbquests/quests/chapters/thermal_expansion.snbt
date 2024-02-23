@@ -1,0 +1,1451 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_expansion"
+	group: "1D667F96A1BAEF18"
+	icon: "thermal:machine_frame"
+	id: "4329423D9F28211A"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "thermal_extra:textures/item/rf_coil_xfer_augment_5.png"
+			rotation: -45.0d
+			width: 1.0d
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "thermal_extra:textures/item/rf_coil_xfer_augment_5.png"
+			rotation: -45.0d
+			width: 1.0d
+			x: 9.5d
+			y: -5.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23983F4DC524B14B"]
+			dependency_requirement: "one_started"
+			description: ["¡Thermal Series Es una serie modular de modificaciones que agrega una combinación rica en contenido de magia y tecnología a tu experiencia en Minecraft!"]
+			icon: {
+				Count: 1b
+				id: "thermal:upgrade_augment_3"
+				tag: { }
+			}
+			id: "463D556BF9689EEF"
+			rewards: [
+				{
+					id: "0B035575773962B7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6BD66330B86E4425"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "721EB383001C1C82"
+				item: "alltheores:raw_tin"
+				type: "item"
+			}]
+			title: "Bienvenido a  &9Thermal Series&r!"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"El Redstone Furnace utiliza RF/FE en lugar de carbón para fundir objetos."
+				""
+				"Como todas las máquinas del Thermal Series, esta máquina se puede actualizar con Mejoras para aumentar la velocidad de cada proceso."
+			]
+			id: "3B43DDACF3722300"
+			rewards: [{
+				id: "1596775CFBB9C825"
+				table_id: 4084485630345500261L
+				type: "random"
+			}]
+			subtitle: "Horno De Energia"
+			tasks: [{
+				id: "7F585DDB40137EBB"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			title: "El horno de Redstone"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["El Pulverizador rompe los minerales en bruto en polvo y también tiene un 25% de probabilidad de crear polvo adicional."]
+			id: "126A5EFC7533EEF0"
+			rewards: [{
+				id: "60DD691BD5FB5E27"
+				table_id: 4084485630345500261L
+				type: "random"
+			}]
+			subtitle: "Rompe los minerales en polvos"
+			tasks: [{
+				id: "15C819827AB69C17"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"El horno de inducción combina materiales en nuevas aleaciones."
+				""
+				"Esto también es útil al fundir escombros antiguos de Netherite."
+			]
+			id: "03195F25A0591416"
+			rewards: [{
+				id: "6387F4D09D36126C"
+				table_id: 4084485630345500261L
+				type: "random"
+			}]
+			subtitle: "El fabricante de aleaciones"
+			tasks: [{
+				id: "35A68363838D5751"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			description: ["El marco de la máquina es necesario para fabricar varias máquinas en la serie térmica."]
+			id: "2EB562C052D9C667"
+			rewards: [
+				{
+					id: "0E9C517D87285D6D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "63002C33B59992C5"
+					item: "thermal:tin_gear"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "El marco básico para máquinas"
+			tasks: [{
+				id: "46FA5AA2AE5DB45B"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7E7431338F8DD1B9"
+			rewards: [
+				{
+					id: "03706F93804A0D34"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6FC601A1429B9A11"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "¡Genera energía quemando objetos!"
+			tasks: [{
+				id: "1CEE75D47EE11E63"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			description: ["Nota: Acepta aceite de árbol, aceite de creosota y combustible refinado."]
+			hide_dependency_lines: true
+			id: "4D9A2BDF6B14DDC5"
+			rewards: [
+				{
+					id: "375B5951C9D4E2C7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4AB80BE8C83D6EEE"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "¡Genera energía usando combustible líquido!"
+			tasks: [{
+				id: "6EDAF2CCF2B3648B"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "2F71FCE4E576C977"
+			rewards: [
+				{
+					id: "317ED7FF0734E5F1"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "79A13EA08A164B86"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "41E6EC8E3C06061C"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "¡Genera energía usando lava!"
+			tasks: [{
+				id: "52A52D9AC73D57A6"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "513CBC12B9FD2759"
+			rewards: [
+				{
+					count: 2
+					id: "78B80F86400CED6C"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "36A9763B69BE2B23"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "791107335A2FA48E"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "¡Genera poder usando gemas!"
+			tasks: [{
+				id: "2AD8B6367C4EE61D"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			hide_dependency_lines: true
+			id: "24D95BE4A6E1112A"
+			rewards: [
+				{
+					id: "4B9A505FEF268ADB"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "7B225CB118E194A8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "04535A10758E2858"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "¡Genera poder usando objetos encantados!"
+			tasks: [{
+				id: "188E97B416508DED"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "73986F0E6E1FCF75"
+			rewards: [
+				{
+					count: 4
+					id: "599629114B9002C3"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "1B0A962AAA483EA1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7551F5775BC02BE5"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "¿Genera energía usando alimentos?"
+			tasks: [{
+				id: "195575813E6C166C"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Esta es una actualización básica para todas las máquinas y artículos."
+				""
+				"Nota: Si bien puedes colocar varias actualizaciones básicas en una máquina, solo surte efecto el nivel más alto."
+			]
+			hide_dependency_lines: true
+			id: "238933E7E364CB43"
+			rewards: [
+				{
+					id: "162E7FB2EB24938E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "22B27B7632AA48E4"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Actualización básica de nivel 1"
+			tasks: [{
+				id: "421D1CD7C23F0150"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Esta es una actualización de nivel 2 para artículos y máquinas de la serie Thermal."
+				""
+				"Nota: Si bien puedes colocar varias actualizaciones básicas en una máquina, solo surte efecto el nivel más alto."
+			]
+			hide_dependency_lines: true
+			id: "2DCB2C0B0CFFDC17"
+			rewards: [
+				{
+					id: "5673ABF08D1C69BA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C28989E0CB5403C"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Actualización básica de nivel 2"
+			tasks: [{
+				id: "6BDD10752FD3164F"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Nota: Si bien puedes colocar varias actualizaciones básicas en una máquina, solo surte efecto el nivel más alto."]
+			hide_dependency_lines: true
+			id: "7CBBC3D130CEB7C8"
+			rewards: [
+				{
+					id: "41CD844E84FB9082"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "46C07599185E67F1"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Actualización básica de nivel 3"
+			tasks: [{
+				id: "1EEC84C3D313C90C"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			description: ["Crea una fuente de agua infinita cuando se coloca entre dos bloques de fuentes de agua."]
+			hide_dependency_lines: true
+			id: "759011C1492FE3E0"
+			rewards: [
+				{
+					id: "3DEC1043967F323E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "67E02E708AF46F32"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "16DE78FCF00D5817"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			description: ["Esta máquina carga los elementos colocados en su interior."]
+			hide_dependency_lines: true
+			id: "5A9168F7D18D4CE5"
+			rewards: [
+				{
+					id: "0E99E8D885E56D24"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "321BD5A327DB13ED"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Artículos de cargos"
+			tasks: [{
+				id: "6AB86AEA80452B16"
+				item: "thermal:charge_bench"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Esta máquina puede producir varios tipos de piedra."
+				""
+				"Coloque 1 bloque de fuente de lava en un lado y 1 bloque de fuente de agua en el otro, y generará adoquines. ¡Consulta las recetas para ver los otros tipos de piedra que puedes crear!"
+			]
+			hide_dependency_lines: false
+			id: "4454FA3A21A805E2"
+			optional: true
+			rewards: [
+				{
+					id: "6F009D9BF949771E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "40E5D87256581034"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Un generador de adoquines"
+			tasks: [{
+				id: "2C0486FE59CC1759"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Puede convertir ciertos bloques en líquidos."
+				""
+				"Esto es útil para generar lava a partir de Cobblestone, Netherrack, etc."
+			]
+			id: "5A2A2C41BCC749B8"
+			rewards: [
+				{
+					id: "5BD047C1E38E8943"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4DBD11992D68D7D4"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0962FD1D559D3745"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Esta máquina funciona como una maceta de botánica, una campana de jardín, etc."
+				""
+				"Cuando se le da agua y una semilla, la semilla crecerá dentro de la máquina y enviará automáticamente los productos a la máquina."
+			]
+			id: "4C9EFED986D6684E"
+			rewards: [
+				{
+					id: "4B1DECA12FBDAF10"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "782CC2D1F0727235"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "75EA76FCE60E78DE"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "238385AF9AF15BA1"
+			rewards: [
+				{
+					id: "7FEEBED02EBA8039"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4CD22F43B244F361"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "13969403AB232C04"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "040820BEF717B519"
+			rewards: [
+				{
+					id: "47FFC093B8E4551B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "75CFA89648D29A54"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Aspira artículos"
+			tasks: [{
+				id: "558745BB16A6B822"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			description: ["Distribuye los efectos de la poción en un área."]
+			hide_dependency_lines: true
+			id: "3F30265F0464783B"
+			rewards: [
+				{
+					id: "1614513F4CC654FE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4842342A0A380B0E"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3DADE96463EF77BD"
+				item: "thermal:device_potion_diffuser"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			description: ["Puede usarse para cargar artículos, aumentar máquinas o llenar artículos con líquido."]
+			id: "59D715B92FBBCF4A"
+			rewards: [
+				{
+					id: "55D7E974974943BD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "604949741CFBCF4C"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5C396E46C07C1549"
+				item: "thermal:tinker_bench"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			description: ["Consejo profesional: ¡puedes encantarlos con &9Capacity&r para aumentar el almacenamiento!"]
+			hide_dependency_lines: true
+			id: "66318D093C954BE7"
+			rewards: [
+				{
+					id: "00D13C3DBFC96C5F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7E136A6D4BC727E9"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "54DF3E263944E88F"
+				item: {
+					Count: 1b
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Almacenamiento de energía"
+			x: -1.25d
+			y: 1.9499999999999997d
+		}
+		{
+			hide_dependency_lines: true
+			id: "2722C46E4515DDA9"
+			rewards: [
+				{
+					id: "65747851CF5C2DC9"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "1C4E91BB9872747C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2F8DDEAD5372B13A"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1470CDE7A34B5E68"
+				item: {
+					Count: 1b
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Almacenamiento de líquidos"
+			x: 5.25d
+			y: 1.9499999999999997d
+		}
+		{
+			hide_dependency_lines: true
+			id: "4979C000FBD89096"
+			rewards: [{
+				id: "36A4A883E91AD876"
+				table_id: 4084485630345500261L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Permite el almacenamiento de XP"
+			tasks: [{
+				id: "0C50EC3D9211B528"
+				item: "thermal:xp_storage_augment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "613AC580FD2BFC11"
+			rewards: [
+				{
+					id: "3FE92AB8034BEFD2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "43F7C81F5FBEAC9F"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Aumenta la capacidad de RF y la tasa de transferencia"
+			tasks: [{
+				id: "29632629292510D3"
+				item: "thermal:rf_coil_augment"
+				title: "Bobina de RF ampliada"
+				type: "item"
+			}]
+			title: "Bobina de RF ampliada"
+			x: 1.5d
+			y: 3.1999999999999993d
+		}
+		{
+			hide_dependency_lines: true
+			id: "63AA7E0A5CF34D85"
+			rewards: [
+				{
+					id: "77A10E72165F982B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A16EE3A0CB70119"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Aumenta la capacidad de RF y aumenta ligeramente la transferencia de RF."
+			tasks: [{
+				id: "2510A5D8B60C734B"
+				item: "thermal:rf_coil_augment"
+				title: "Bobina de RF estabilizada"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.1999999999999993d
+		}
+		{
+			hide_dependency_lines: true
+			id: "541DBD5422854DCE"
+			rewards: [
+				{
+					id: "56F1444C8F371740"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3FAE805DC6FCC383"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Aumenta la transferencia de RF y aumenta ligeramente la capacidad."
+			tasks: [{
+				id: "6EB2532EF44856E0"
+				item: "thermal:rf_coil_xfer_augment"
+				title: "Bobina de RF de alto flujo"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.1999999999999993d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0D96FB9F619DC0DC"
+			rewards: [{
+				id: "137F92BFE7D9D624"
+				table_id: 4084485630345500261L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Aumenta el almacenamiento del tanque"
+			tasks: [{
+				id: "46FCB59543482AE5"
+				item: "thermal:fluid_tank_augment"
+				title: "Construcción de tanque ampliada"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "365735DEAA8C62E4"
+			rewards: [{
+				id: "0B3A9BEB20CDF324"
+				table_id: 4084485630345500261L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "24B02A870E9C636E"
+				item: "thermal:item_filter_augment"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			description: [""]
+			hide_dependency_lines: true
+			id: "2E4962A15CE6484A"
+			rewards: [
+				{
+					id: "34F405AB417CD612"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5C17FEA217EDB728"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Aumenta la velocidad de procesamiento, pero reduce la eficiencia"
+			tasks: [{
+				id: "7A98C89B1CFF6455"
+				item: "thermal:machine_speed_augment"
+				title: "Amplificador de enlace de flujo"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.1999999999999993d
+		}
+		{
+			hide_dependency_lines: true
+			id: "4F89DCA5B97E3B10"
+			rewards: [
+				{
+					id: "45188A05316AF543"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "26B53E427CFEA60D"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Aumenta la eficiencia a costa de la velocidad"
+			tasks: [{
+				id: "5DDAA9162EDEF0A9"
+				item: "thermal:machine_efficiency_augment"
+				title: "Eficiencia de flujo"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.6999999999999993d
+		}
+		{
+			hide_dependency_lines: true
+			id: "66AA40029407EC69"
+			rewards: [
+				{
+					id: "6089A7D203804D46"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "49B9779DE0BCA5DA"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Aumenta la producción secundaria"
+			tasks: [{
+				id: "17029551C0B08985"
+				item: "thermal:machine_output_augment"
+				title: "Tamiz de proceso auxiliar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.6999999999999993d
+		}
+		{
+			hide_dependency_lines: true
+			id: "30E5B24ED6768AD8"
+			rewards: [
+				{
+					count: 4
+					id: "3326FD2DDEF9E137"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "1F7CEF2B745FC81C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "45EDD7F69547CC07"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Reduce el uso de catalizador"
+			tasks: [{
+				id: "4B67608D42B5E6CF"
+				item: "thermal:machine_catalyst_augment"
+				title: "Cámara de recuperación catalítica"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.6999999999999993d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0B42A74FC6BD7B68"
+			rewards: [{
+				id: "0A7B8D01CC3B4E22"
+				table_id: 4084485630345500261L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Subproductos de vacíos"
+			tasks: [{
+				id: "46FA531B6CB9F8D9"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "269222F1F18ABD07"
+			rewards: [
+				{
+					id: "0BAD3E6CB9D757DE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "68E1D008AD37D977"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Aumenta la tasa de generación a costa de la eficiencia"
+			tasks: [{
+				id: "59975CBC39D18236"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:dynamo_output_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_output_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_output_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_output_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_output_augment_4"
+							}
+						]
+					}
+				}
+				title: "Cámara de reacción auxiliar"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "2F8CA2DBB70510E7"
+			rewards: [
+				{
+					id: "7E8854AE8CA7C194"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "447C4A661CE7C41B"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Aumenta la eficiencia del combustible de las dinamos"
+			tasks: [{
+				id: "552E3CFB496A0C92"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:dynamo_fuel_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_fuel_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_fuel_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_fuel_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_fuel_augment_4"
+							}
+						]
+					}
+				}
+				title: "Inyectores de ciclos múltiples"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "2FF61C733F6B3A2E"
+			rewards: [{
+				id: "4C894F9486CCE476"
+				table_id: 4084485630345500261L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Aumenta el efecto AoE"
+			tasks: [{
+				id: "6FDE5B88369649CD"
+				item: "thermal:area_radius_augment"
+				title: "Mejora radial"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "6A620A2EAAB44EBA"
+			rewards: [
+				{
+					id: "2D46F5D99E893072"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1EE6D8B021CBAE5C"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Amplifica el efecto de la poción"
+			tasks: [{
+				id: "51F65FF93373D0DC"
+				item: "thermal:potion_amplifier_augment"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "48EBE0FEA5EB6B04"
+			rewards: [
+				{
+					id: "3CE629ED96FAD464"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0112F5517D73B366"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Aumenta la duración del efecto de la poción"
+			tasks: [{
+				id: "5A8AC9B12D2F8F8A"
+				item: "thermal:potion_duration_augment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			description: ["Esta máquina sirve principalmente para extraer tintes de flores o mezclar minerales con sus componentes."]
+			id: "7B06A13B34C04776"
+			rewards: [{
+				id: "6F3C8B0BA59021F1"
+				table_id: 4084485630345500261L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Separa los artículos en sus componentes de elaboración"
+			tasks: [{
+				id: "7249C05EC78CE948"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Crea \"Prensas\" usando moldes."
+				""
+				"Piense en placas, engranajes, etc."
+			]
+			hide_dependency_lines: true
+			id: "73A588009752C789"
+			rewards: [
+				{
+					id: "272CF94BA13F20F2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "562CFFDB6190BF3C"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "73CEC9CCBDE643B0"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Convierte elementos de líquido a sólido, algunos requieren moldes."
+				""
+				"También hay una receta de huevos de desove de abejas que puede crear."
+			]
+			id: "400C395A60B81B1A"
+			rewards: [{
+				id: "4A8029242EE8A9B2"
+				table_id: 4084485630345500261L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1ED15141229B9B4F"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: ["Puede convertir líquidos en artículos u otros líquidos útiles."]
+			hide_dependency_lines: true
+			id: "53CC0D3A4FE0C4A0"
+			rewards: [
+				{
+					id: "39430A557E8E5B0C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0A5A8FF107ED4872"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "293335FD7F46BAB8"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Funciona como un horno de Coca-Cola, pero simplificado."
+				""
+				"Inserte \"combustible\" como carbón y producirá coque de carbón y un subproducto."
+			]
+			hide_dependency_lines: true
+			id: "4852F61AE731ABF3"
+			rewards: [
+				{
+					id: "40850691FFC65262"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6937F7FFF2929D2F"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "61688D345BE42BA8"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: ["Combina líquidos con artículos"]
+			hide_dependency_lines: true
+			id: "185E935560F17940"
+			rewards: [
+				{
+					id: "28E9F8B0CF74C6DD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "702FF5677E9FF7A1"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3198A2CAA933A256"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: ["Puede crear pociones \"líquidas\" que se pueden embotellar en pociones."]
+			hide_dependency_lines: true
+			id: "646369B3E4630BBB"
+			rewards: [
+				{
+					id: "1C10F3540EEA754C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "134005E6AC12278B"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "427FB85A58114D20"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "08BCAC562F7CF236"
+			rewards: [
+				{
+					id: "3F1EE0B785CFFBAC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "45D50A8538EA1C2E"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Un Auto-Crafter!"
+			tasks: [{
+				id: "6A389DD600AEF184"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: ["Es más como un pico que usa RF/FE."]
+			hide_dependency_lines: true
+			id: "4D1EF1D903EEBA08"
+			rewards: [
+				{
+					id: "79A0EF3AD32F976D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C8785358F192F9C"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Un dispositivo de minería temprano en el juego"
+			tasks: [{
+				id: "37CE4D3594705180"
+				item: {
+					Count: 1b
+					id: "thermal:flux_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0A9A8260931AC0D9"
+			rewards: [
+				{
+					id: "4313B2002058A6C5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "220BDA560F9526F7"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "¡Sierra de mano accionada por RF!"
+			tasks: [{
+				id: "61E08A1A8C664399"
+				item: {
+					Count: 1b
+					id: "thermal:flux_saw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "76BCB8C0448EFE50"
+			rewards: [{
+				id: "1CAE757FEEC6C318"
+				table_id: 4084485630345500261L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Actualización básica de nivel 4"
+			tasks: [{
+				id: "41B789CFB591439D"
+				item: "thermal_extra:upgrade_augment"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+	]
+	title: "Thermal Series"
+}
