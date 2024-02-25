@@ -3,7 +3,7 @@ name: Bugs/Errores
 about: Create a report to help us improve
 title: ''
 labels: bug
-assignees: ''
+assignees: SrNadien
 
 ---
 
