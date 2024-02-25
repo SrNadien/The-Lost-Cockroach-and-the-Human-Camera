@@ -1,6 +1,6 @@
 ---
 name: Reportar Bug
-about: Create a report to help us improve
+about: Crear Teporte De Bugs Item/Mod
 title: ''
 labels: bug
 assignees: ''

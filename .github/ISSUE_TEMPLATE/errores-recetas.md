@@ -1,9 +1,9 @@
 ---
-name: Bugs/Errores
-about: Create a report to help us improve
+name: Errores Recetas
+about: Crear Reporte De Error De Recetas
 title: ''
 labels: bug
-assignees: SrNadien
+assignees: ''
 
 ---
 
